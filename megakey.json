@@ -1,0 +1,106 @@
+{
+    "title": "MegaKey",
+    "rules": [
+        {
+            "description": "Caps Lock → Mega (⌃⌥⌘), tap → CapsLock",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "caps_lock",
+                        "modifiers": { "mandatory": ["fn"], "optional": ["any"] }
+                    },
+                    "to": [{ "key_code": "caps_lock" }],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "caps_lock",
+                        "modifiers": { "optional": ["any"] }
+                    },
+                    "to": [{
+                        "key_code": "left_command",
+                        "modifiers": ["left_control", "left_option"]
+                    }],
+                    "to_if_alone": [{ "key_code": "caps_lock" }],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "caps_lock",
+                        "modifiers": { "mandatory": ["shift"], "optional": ["any"] }
+                    },
+                    "to": [{
+                        "key_code": "left_shift",
+                        "modifiers": ["left_command", "left_control", "left_option"]
+                    }],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "Tab → Giga (⇧⌃⌥⌘), tap → Tab",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "tab",
+                        "modifiers": { "optional": ["any"] }
+                    },
+                    "to": [{
+                        "key_code": "left_shift",
+                        "modifiers": ["left_control", "left_option", "left_command"]
+                    }],
+                    "to_if_alone": [{ "key_code": "tab" }],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "Right Ctrl → Chaos (⌃⌥)",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "right_control",
+                        "modifiers": { "optional": ["any"] }
+                    },
+                    "to": [{
+                        "key_code": "left_control",
+                        "modifiers": ["left_option"]
+                    }],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "Right Option → Force (⌃⌘)",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "right_option",
+                        "modifiers": { "optional": ["any"] }
+                    },
+                    "to": [{
+                        "key_code": "left_control",
+                        "modifiers": ["left_command"]
+                    }],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "Right Cmd → Wish (⌥⌘)",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "right_command",
+                        "modifiers": { "optional": ["any"] }
+                    },
+                    "to": [{
+                        "key_code": "left_option",
+                        "modifiers": ["left_command"]
+                    }],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
