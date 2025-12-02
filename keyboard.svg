@@ -69,6 +69,8 @@
      width="1200"
      height="491"
      id="image2" />
+  <!-- Muting overlay -->
+  <rect x="0" y="0" width="1200" height="491" fill="#f0f0f0" fill-opacity="0.7" id="mute-overlay" />
   <!-- Tab - GIGA -->
   <g
      id="key-giga">
