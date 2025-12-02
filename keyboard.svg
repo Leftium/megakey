@@ -13,6 +13,9 @@
     .mega-overlay { fill: #2196f3; fill-opacity: 0.3; stroke: #2196f3; stroke-width: 3; }
     .mega-symbol { font-size: 28px; font-weight: 700; fill: #1565c0; filter: url(#glow); text-anchor: start; }
     .mega-name { font-size: 12px; font-weight: 700; fill: #1565c0; text-anchor: start; }
+    .macos-overlay { fill: #9c27b0; fill-opacity: 0.3; stroke: #9c27b0; stroke-width: 3; }
+    .macos-symbol { font-size: 28px; font-weight: 700; fill: #6a1b9a; filter: url(#glow); text-anchor: start; }
+    .macos-name { font-size: 12px; font-weight: 700; fill: #6a1b9a; text-anchor: start; }
   </style>
   
   <!-- Background keyboard image -->
@@ -20,36 +23,57 @@
   
   <!-- Tab - GIGA -->
   <g id="key-giga">
-    <rect class="mega-overlay" x="20" y="172" width="105" height="64" rx="8"/>
+    <rect class="mega-overlay" x="20" y="172" width="160" height="64" rx="8"/>
     <text class="mega-symbol" x="32" y="202">❖</text>
     <text class="mega-name" x="32" y="228">GIGA</text>
   </g>
   
   <!-- Caps Lock - MEGA -->
   <g id="key-mega">
-    <rect class="mega-overlay" x="20" y="252" width="125" height="64" rx="8"/>
+    <rect class="mega-overlay" x="20" y="252" width="180" height="64" rx="8"/>
     <text class="mega-symbol" x="32" y="282">⁂</text>
     <text class="mega-name" x="32" y="308">MEGA</text>
   </g>
   
+  <!-- Left Control -->
+  <g id="key-control">
+    <rect class="macos-overlay" x="20" y="410" width="105" height="68" rx="8"/>
+    <text class="macos-symbol" x="32" y="440">⌃</text>
+    <text class="macos-name" x="32" y="465">control</text>
+  </g>
+  
+  <!-- Left Option -->
+  <g id="key-option">
+    <rect class="macos-overlay" x="133" y="410" width="105" height="68" rx="8"/>
+    <text class="macos-symbol" x="145" y="440">⌥</text>
+    <text class="macos-name" x="145" y="465">option</text>
+  </g>
+  
+  <!-- Left Command -->
+  <g id="key-command">
+    <rect class="macos-overlay" x="246" y="410" width="130" height="68" rx="8"/>
+    <text class="macos-symbol" x="258" y="440">⌘</text>
+    <text class="macos-name" x="258" y="465">command</text>
+  </g>
+  
   <!-- Right Command - FORCE -->
   <g id="key-force">
-    <rect class="mega-overlay" x="878" y="410" width="90" height="65" rx="8"/>
+    <rect class="mega-overlay" x="878" y="410" width="105" height="68" rx="8"/>
     <text class="mega-symbol" x="890" y="440">▲</text>
     <text class="mega-name" x="890" y="465">FORCE</text>
   </g>
   
   <!-- Right Option - WISH -->
   <g id="key-wish">
-    <rect class="mega-overlay" x="976" y="410" width="90" height="65" rx="8"/>
-    <text class="mega-symbol" x="988" y="440">⭑</text>
-    <text class="mega-name" x="988" y="465">WISH</text>
+    <rect class="mega-overlay" x="991" y="410" width="105" height="68" rx="8"/>
+    <text class="mega-symbol" x="1003" y="440">⭑</text>
+    <text class="mega-name" x="1003" y="465">WISH</text>
   </g>
   
   <!-- Right Control - CHAOS -->
   <g id="key-chaos">
-    <rect class="mega-overlay" x="1074" y="410" width="90" height="65" rx="8"/>
-    <text class="mega-symbol" x="1086" y="440">❋</text>
-    <text class="mega-name" x="1086" y="465">CHAOS</text>
+    <rect class="mega-overlay" x="1104" y="410" width="90" height="68" rx="8"/>
+    <text class="mega-symbol" x="1116" y="440">❋</text>
+    <text class="mega-name" x="1116" y="465">CHAOS</text>
   </g>
 </svg>
