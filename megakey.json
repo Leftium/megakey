@@ -1,5 +1,5 @@
 {
-    "title": "MegaKey",
+    "title": "MegaKey (tap → CapsLock)",
     "rules": [
         {
             "description": "Caps Lock → Mega (⌃⌥⌘), tap → CapsLock",
