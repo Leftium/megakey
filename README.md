@@ -16,8 +16,9 @@ MegaKey transforms your keyboard with 5 custom modifier combinations using [Kara
 
 ### Mega is the Center
 
-Mega (⌃⌥⌘) is the foundation. All other modifiers derive from it:
+Mega is the foundation. All other modifiers derive from it:
 
+**macOS:**
 ```
               ❖ Giga (⇧⌃⌥⌘)
                 ↑ +Shift
@@ -30,6 +31,19 @@ Mega (⌃⌥⌘) is the foundation. All other modifiers derive from it:
                   -Opt
 ```
 
+**Windows/Linux:**
+```
+               ❖ Giga (⇧ Ctrl+Win+Alt)
+                 ↑ +Shift
+                 │
+ ❋ Chaos ←────── ⁂ Mega ──────→ ⭑ Main
+ (Ctrl+Win)    (Ctrl+Win+Alt)   (Win+Alt)
+    -Alt           │             -Ctrl
+                   ↓
+               ▲ Sub (Ctrl+Alt)
+                  -Win
+```
+
 ### Why Mega/Giga Instead of Hyper/Meh?
 
 The terms "Hyper" and "Meh" are ambiguous:
@@ -37,6 +51,23 @@ The terms "Hyper" and "Meh" are ambiguous:
 - **Meh**: Sometimes ⌃⌥⇧ (without Cmd), sometimes ⌃⌥⌘ (without Shift)
 
 **Mega/Giga are unambiguous** and follow SI prefix progression (Mega → Giga = 1000x bigger).
+
+### Cross-Platform Names
+
+Each modifier name relates to the key it **omits** (opposite meaning):
+
+| macOS | Win/Linux | Omit (macOS) | Omit (Win/Linux) | Position | Keys (macOS) | Keys (Win/Linux) |
+|-------|-----------|--------------|------------------|----------|--------------|------------------|
+| Chaos | Chaos     | Ctrl         | Ctrl             | Outside  | Opt-Cmd      | Win/Super-Alt    |
+| Force | Sub       | Option       | Win/Super        | Middle   | Ctrl-Cmd     | Ctrl-Alt         |
+| Wish  | Main      | Cmd          | Alt              | Inside   | Ctrl-Opt     | Ctrl-Win/Super   |
+
+**Name origins:**
+- **Chaos** - opposite of Ctrl (Control) - same on both platforms
+- **Force** (macOS) - opposite of Option (choice) 
+- **Sub** (Win/Linux) - opposite of Super/Win
+- **Wish** (macOS) - soft command, desire
+- **Main** (Win/Linux) - opposite of Alt (alternate)
 
 ## Installation
 
