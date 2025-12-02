@@ -69,15 +69,15 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 
 ## Key Behaviors
 
-### Tap vs Hold
+### Hold vs Tap
 
-| Key | Tap | Hold |
-|-----|-----|------|
-| <kbd>CapsLock</kbd> | CapsLock (or Esc) | ⁂ Mega (⌃⌥⌘) |
-| <kbd>Tab</kbd> | Tab | ❖ Giga (⇧⌃⌥⌘) |
-| <kbd>Right Ctrl</kbd> | - | ❋ Chaos (⌃⌥) |
-| <kbd>Right Option</kbd> | - | ▲ Force (⌃⌘) |
-| <kbd>Right Cmd</kbd> | - | ⭑ Wish (⌥⌘) |
+| Key | Hold | Tap |
+|-----|------|-----|
+| <kbd>CapsLock</kbd> | ⁂ Mega (⌃⌥⌘) | CapsLock (or Esc) |
+| <kbd>Tab</kbd> | ❖ Giga (⇧⌃⌥⌘) | Tab |
+| <kbd>Right Ctrl</kbd> | ❋ Chaos (⌃⌥) | - |
+| <kbd>Right Option</kbd> | ▲ Force (⌃⌘) | - |
+| <kbd>Right Cmd</kbd> | ⭑ Wish (⌥⌘) | - |
 
 ### Shifted Modifiers
 
