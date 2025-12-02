@@ -1,334 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 370" font-family="-apple-system, SF Pro Text, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 491" font-family="-apple-system, SF Pro Text, sans-serif">
   <defs>
-    <filter id="keyShadow" x="-5%" y="-5%" width="110%" height="120%">
-      <feDropShadow dx="0" dy="1" stdDeviation="0.5" flood-opacity="0.1"/>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
   
   <style>
-    .keyboard-base { fill: #d4d4d4; }
-    .key { fill: #ffffff; stroke: none; filter: url(#keyShadow); }
-    .key-letter { font-size: 20px; fill: #333; text-anchor: middle; font-weight: 400; }
-    .key-symbol { font-size: 11px; fill: #555; text-anchor: middle; }
-    .key-label { font-size: 10px; fill: #555; }
-    .key-fn-icon { font-size: 12px; fill: #555; text-anchor: middle; }
-    .mega-key { fill: #fff8e8; stroke: #ff9800; stroke-width: 2; filter: url(#keyShadow); }
-    .mega-symbol { font-size: 24px; text-anchor: middle; }
-    .mega-name { font-size: 9px; text-anchor: middle; font-weight: 500; }
+    .mega-overlay { fill: #2196f3; fill-opacity: 0.3; stroke: #2196f3; stroke-width: 3; }
+    .mega-symbol { font-size: 28px; font-weight: 700; fill: #1565c0; filter: url(#glow); text-anchor: start; }
+    .mega-name { font-size: 12px; font-weight: 700; fill: #1565c0; text-anchor: start; }
   </style>
   
-  <!-- Keyboard base: 20px padding on all sides -->
-  <rect class="keyboard-base" x="0" y="0" width="1000" height="370" rx="18"/>
+  <!-- Background keyboard image -->
+  <image href="apple-keyboard.jpg" x="0" y="0" width="1200" height="491"/>
   
-  <!-- 
-    Layout based on reference image (14 standard keys wide + edges):
-    - Standard key width: 62px
-    - Key gap: 6px  
-    - Key unit (key + gap): 68px
-    - Left padding: 20px
-    - Right edge: 20px + 14*68 - 6 = 20 + 952 - 6 = 966 → round to 980 for right padding
-    - Total width: 1000px
-    
-    Row heights:
-    - Function row: 42px height
-    - Other rows: 52px height
-    - Gap between rows: 6px
-  -->
-  
-  <!-- Row 1: Function row (13 keys + eject, shorter height) -->
-  <g transform="translate(20, 20)">
-    <rect class="key" x="0" y="0" width="62" height="42" rx="5"/>
-    <text class="key-label" x="12" y="30">esc</text>
-    
-    <rect class="key" x="68" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="99" y="18">☼</text>
-    <text class="key-symbol" x="99" y="34">F1</text>
-    
-    <rect class="key" x="136" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="167" y="18">☀</text>
-    <text class="key-symbol" x="167" y="34">F2</text>
-    
-    <rect class="key" x="204" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="235" y="18">⧉</text>
-    <text class="key-symbol" x="235" y="34">F3</text>
-    
-    <rect class="key" x="272" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="303" y="18">⊞</text>
-    <text class="key-symbol" x="303" y="34">F4</text>
-    
-    <rect class="key" x="340" y="0" width="62" height="42" rx="5"/>
-    <text class="key-symbol" x="371" y="28">F5</text>
-    
-    <rect class="key" x="408" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="439" y="18">⏪</text>
-    <text class="key-symbol" x="439" y="34">F6</text>
-    
-    <rect class="key" x="476" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="507" y="18">⏯</text>
-    <text class="key-symbol" x="507" y="34">F7</text>
-    
-    <rect class="key" x="544" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="575" y="18">⏩</text>
-    <text class="key-symbol" x="575" y="34">F8</text>
-    
-    <rect class="key" x="612" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="643" y="18">🔇</text>
-    <text class="key-symbol" x="643" y="34">F9</text>
-    
-    <rect class="key" x="680" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="711" y="18">🔉</text>
-    <text class="key-symbol" x="711" y="34">F10</text>
-    
-    <rect class="key" x="748" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="779" y="18">🔊</text>
-    <text class="key-symbol" x="779" y="34">F11</text>
-    
-    <rect class="key" x="816" y="0" width="62" height="42" rx="5"/>
-    <text class="key-fn-icon" x="847" y="18">⏏</text>
-    <text class="key-symbol" x="847" y="34">F12</text>
-    
-    <!-- Last key aligns with row below's delete key: ends at 960 -->
-    <rect class="key" x="884" y="0" width="76" height="42" rx="5"/>
-    <text class="key-fn-icon" x="922" y="28">⏏</text>
+  <!-- Tab - GIGA -->
+  <g id="key-giga">
+    <rect class="mega-overlay" x="27" y="168" width="105" height="72" rx="8"/>
+    <text class="mega-symbol" x="39" y="198">❖</text>
+    <text class="mega-name" x="39" y="232">GIGA</text>
   </g>
   
-  <!-- Row 2: Number row (14 keys: ` 1-0 - = delete) -->
-  <g transform="translate(20, 68)">
-    <rect class="key" x="0" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="31" y="20">~</text>
-    <text class="key-letter" x="31" y="42">`</text>
-    
-    <rect class="key" x="68" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="99" y="20">!</text>
-    <text class="key-letter" x="99" y="42">1</text>
-    
-    <rect class="key" x="136" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="167" y="20">@</text>
-    <text class="key-letter" x="167" y="42">2</text>
-    
-    <rect class="key" x="204" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="235" y="20">#</text>
-    <text class="key-letter" x="235" y="42">3</text>
-    
-    <rect class="key" x="272" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="303" y="20">$</text>
-    <text class="key-letter" x="303" y="42">4</text>
-    
-    <rect class="key" x="340" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="371" y="20">%</text>
-    <text class="key-letter" x="371" y="42">5</text>
-    
-    <rect class="key" x="408" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="439" y="20">^</text>
-    <text class="key-letter" x="439" y="42">6</text>
-    
-    <rect class="key" x="476" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="507" y="20">&amp;</text>
-    <text class="key-letter" x="507" y="42">7</text>
-    
-    <rect class="key" x="544" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="575" y="20">*</text>
-    <text class="key-letter" x="575" y="42">8</text>
-    
-    <rect class="key" x="612" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="643" y="20">(</text>
-    <text class="key-letter" x="643" y="42">9</text>
-    
-    <rect class="key" x="680" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="711" y="20">)</text>
-    <text class="key-letter" x="711" y="42">0</text>
-    
-    <rect class="key" x="748" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="779" y="20">_</text>
-    <text class="key-letter" x="779" y="42">-</text>
-    
-    <rect class="key" x="816" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="847" y="20">+</text>
-    <text class="key-letter" x="847" y="42">=</text>
-    
-    <!-- delete: 884 to 960 = 76px wide -->
-    <rect class="key" x="884" y="0" width="76" height="52" rx="5"/>
-    <text class="key-label" x="900" y="38">delete</text>
+  <!-- Caps Lock - MEGA -->
+  <g id="key-mega">
+    <rect class="mega-overlay" x="27" y="248" width="125" height="72" rx="8"/>
+    <text class="mega-symbol" x="39" y="280">⁂</text>
+    <text class="mega-name" x="39" y="312">MEGA</text>
   </g>
   
-  <!-- Row 3: QWERTY row (tab + 12 letters + [ ] \) -->
-  <g transform="translate(20, 126)">
-    <!-- Tab = 1.5 units = 96px, starts at 0, GIGA -->
-    <rect class="mega-key" x="0" y="0" width="96" height="52" rx="5"/>
-    <text class="mega-symbol" x="48" y="26" fill="#9c27b0">❖</text>
-    <text class="mega-name" x="48" y="44" fill="#9c27b0">Giga</text>
-    
-    <!-- Q starts at 102 -->
-    <rect class="key" x="102" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="133" y="35">Q</text>
-    
-    <rect class="key" x="170" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="201" y="35">W</text>
-    
-    <rect class="key" x="238" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="269" y="35">E</text>
-    
-    <rect class="key" x="306" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="337" y="35">R</text>
-    
-    <rect class="key" x="374" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="405" y="35">T</text>
-    
-    <rect class="key" x="442" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="473" y="35">Y</text>
-    
-    <rect class="key" x="510" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="541" y="35">U</text>
-    
-    <rect class="key" x="578" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="609" y="35">I</text>
-    
-    <rect class="key" x="646" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="677" y="35">O</text>
-    
-    <rect class="key" x="714" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="745" y="35">P</text>
-    
-    <rect class="key" x="782" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="813" y="20">{</text>
-    <text class="key-letter" x="813" y="42">[</text>
-    
-    <rect class="key" x="850" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="881" y="20">}</text>
-    <text class="key-letter" x="881" y="42">]</text>
-    
-    <!-- backslash: 918 to 960 = 42px (narrower) -->
-    <rect class="key" x="918" y="0" width="42" height="52" rx="5"/>
-    <text class="key-symbol" x="939" y="20">|</text>
-    <text class="key-letter" x="939" y="42">\</text>
+  <!-- Right Command - FORCE -->
+  <g id="key-force">
+    <rect class="mega-overlay" x="952" y="400" width="78" height="68" rx="8"/>
+    <text class="mega-symbol" x="962" y="430">▲</text>
+    <text class="mega-name" x="962" y="460">FORCE</text>
   </g>
   
-  <!-- Row 4: Home row (caps + 11 letters + return) -->
-  <g transform="translate(20, 184)">
-    <!-- Caps Lock = ~1.75 units = 113px, MEGA -->
-    <rect class="mega-key" x="0" y="0" width="113" height="52" rx="5"/>
-    <text class="mega-symbol" x="56" y="26" fill="#ff9800">⁂</text>
-    <text class="mega-name" x="56" y="44" fill="#ff9800">Mega</text>
-    
-    <!-- A starts at 119 -->
-    <rect class="key" x="119" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="150" y="35">A</text>
-    
-    <rect class="key" x="187" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="218" y="35">S</text>
-    
-    <rect class="key" x="255" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="286" y="35">D</text>
-    
-    <rect class="key" x="323" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="354" y="35">F</text>
-    
-    <rect class="key" x="391" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="422" y="35">G</text>
-    
-    <rect class="key" x="459" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="490" y="35">H</text>
-    
-    <rect class="key" x="527" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="558" y="35">J</text>
-    
-    <rect class="key" x="595" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="626" y="35">K</text>
-    
-    <rect class="key" x="663" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="694" y="35">L</text>
-    
-    <rect class="key" x="731" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="762" y="20">:</text>
-    <text class="key-letter" x="762" y="42">;</text>
-    
-    <rect class="key" x="799" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="830" y="20">"</text>
-    <text class="key-letter" x="830" y="42">'</text>
-    
-    <!-- Return: 867 to 960 = 93px -->
-    <rect class="key" x="867" y="0" width="93" height="52" rx="5"/>
-    <text class="key-label" x="895" y="38">return</text>
+  <!-- Right Option - WISH -->
+  <g id="key-wish">
+    <rect class="mega-overlay" x="1038" y="400" width="78" height="68" rx="8"/>
+    <text class="mega-symbol" x="1048" y="430">⭑</text>
+    <text class="mega-name" x="1048" y="460">WISH</text>
   </g>
   
-  <!-- Row 5: Shift row (shift + 10 letters + shift) -->
-  <g transform="translate(20, 242)">
-    <!-- Left Shift = ~2.25 units = 147px -->
-    <rect class="key" x="0" y="0" width="147" height="52" rx="5"/>
-    <text class="key-label" x="12" y="42">shift</text>
-    
-    <!-- Z starts at 153 -->
-    <rect class="key" x="153" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="184" y="35">Z</text>
-    
-    <rect class="key" x="221" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="252" y="35">X</text>
-    
-    <rect class="key" x="289" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="320" y="35">C</text>
-    
-    <rect class="key" x="357" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="388" y="35">V</text>
-    
-    <rect class="key" x="425" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="456" y="35">B</text>
-    
-    <rect class="key" x="493" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="524" y="35">N</text>
-    
-    <rect class="key" x="561" y="0" width="62" height="52" rx="5"/>
-    <text class="key-letter" x="592" y="35">M</text>
-    
-    <rect class="key" x="629" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="660" y="20">&lt;</text>
-    <text class="key-letter" x="660" y="42">,</text>
-    
-    <rect class="key" x="697" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="728" y="20">&gt;</text>
-    <text class="key-letter" x="728" y="42">.</text>
-    
-    <rect class="key" x="765" y="0" width="62" height="52" rx="5"/>
-    <text class="key-symbol" x="796" y="20">?</text>
-    <text class="key-letter" x="796" y="42">/</text>
-    
-    <!-- Right Shift: 833 to 960 = 127px -->
-    <rect class="key" x="833" y="0" width="127" height="52" rx="5"/>
-    <text class="key-label" x="928" y="42">shift</text>
-  </g>
-  
-  <!-- Row 6: Bottom row (control, option, command, space, command, option, control) -->
-  <g transform="translate(20, 300)">
-    <!-- Left Control -->
-    <rect class="key" x="0" y="0" width="79" height="52" rx="5"/>
-    <text class="key-symbol" x="40" y="20">⌃</text>
-    <text class="key-label" x="12" y="42">control</text>
-    
-    <!-- Left Option -->
-    <rect class="key" x="85" y="0" width="79" height="52" rx="5"/>
-    <text class="key-symbol" x="124" y="20">⌥</text>
-    <text class="key-label" x="97" y="42">option</text>
-    
-    <!-- Left Command -->
-    <rect class="key" x="170" y="0" width="96" height="52" rx="5"/>
-    <text class="key-symbol" x="218" y="20">⌘</text>
-    <text class="key-label" x="182" y="42">command</text>
-    
-    <!-- Spacebar: 272 to 610 = 338px -->
-    <rect class="key" x="272" y="0" width="338" height="52" rx="5"/>
-    
-    <!-- Right Command - FORCE: 616 to 712 = 96px -->
-    <rect class="mega-key" x="616" y="0" width="96" height="52" rx="5"/>
-    <text class="mega-symbol" x="664" y="24" fill="#4caf50">▲</text>
-    <text class="mega-name" x="664" y="44" fill="#4caf50">Force</text>
-    
-    <!-- Right Option - WISH: 718 to 797 = 79px -->
-    <rect class="mega-key" x="718" y="0" width="79" height="52" rx="5"/>
-    <text class="mega-symbol" x="757" y="24" fill="#2196f3">⭑</text>
-    <text class="mega-name" x="757" y="44" fill="#2196f3">Wish</text>
-    
-    <!-- Right Control - CHAOS: 803 to 960 = 157px (wider to reach edge) -->
-    <rect class="mega-key" x="803" y="0" width="157" height="52" rx="5"/>
-    <text class="mega-symbol" x="881" y="24" fill="#f44336">❋</text>
-    <text class="mega-name" x="881" y="44" fill="#f44336">Chaos</text>
+  <!-- Right Control - CHAOS -->
+  <g id="key-chaos">
+    <rect class="mega-overlay" x="1124" y="400" width="68" height="68" rx="8"/>
+    <text class="mega-symbol" x="1134" y="430">❋</text>
+    <text class="mega-name" x="1134" y="460">CHAOS</text>
   </g>
 </svg>
