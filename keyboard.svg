@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    viewBox="0 0 1200 491"
-   font-family="SF Pro, SF Pro Text, -apple-system, sans-serif"
+   font-family="SF Pro"
    version="1.1"
    id="svg17"
    sodipodi:docname="keyboard.svg"
@@ -19,23 +19,24 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.324902"
-     inkscape:cx="638.53777"
-     inkscape:cy="83.779779"
+     inkscape:zoom="0.79367507"
+     inkscape:cx="1006.0792"
+     inkscape:cy="-129.77603"
      inkscape:window-width="2560"
      inkscape:window-height="1387"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg17" />
+     inkscape:current-layer="svg17"
+     showgrid="false" />
   <defs
      id="defs2">
     <filter
        id="glow"
-       x="-0.59105339"
-       y="-0.79792208"
-       width="2.1821068"
-       height="2.5958442">
+       x="-0.42833987"
+       y="-0.62918587"
+       width="1.8566797"
+       height="2.2583717">
       <feGaussianBlur
          stdDeviation="2"
          result="blur"
@@ -54,11 +55,11 @@
   <style
      id="style2">
     .mega-overlay { fill: #2196f3; fill-opacity: 0.3; stroke: #2196f3; stroke-width: 3; stroke-opacity: 0.5; }
-    .mega-symbol { font-size: 28px; font-weight: 700; fill: #1565c0; filter: url(#glow); text-anchor: start; }
-    .mega-name { font-size: 12px; font-weight: 700; fill: #1565c0; text-anchor: start; }
+    .mega-symbol { font-size: 20px; font-weight: bold; fill: #1565c0; text-anchor: start; font-family: 'SF Pro'; }
+    .mega-name { font-size: 15px; font-weight: bold; fill: #1565c0; text-anchor: start; font-family: 'SF Pro'; }
     .macos-overlay { fill: #9c27b0; fill-opacity: 0.3; stroke: #9c27b0; stroke-width: 3; stroke-opacity: 0.5; }
-    .macos-symbol { font-size: 28px; font-weight: 700; fill: #6a1b9a; filter: url(#glow); text-anchor: start; }
-    .macos-name { font-size: 12px; font-weight: 700; fill: #6a1b9a; text-anchor: start; }
+    .macos-symbol { font-size: 20px; font-weight: bold; fill: #6a1b9a; text-anchor: start; font-family: 'SF Pro'; }
+    .macos-name { font-size: 15px; font-weight: bold; fill: #6a1b9a; text-anchor: start; font-family: 'SF Pro'; }
   </style>
   <!-- Background keyboard image -->
   <image
@@ -81,8 +82,8 @@
        id="rect2" />
     <text
        class="mega-symbol"
-       x="23.04937"
-       y="198.23132"
+       x="21.998756"
+       y="194.02887"
        id="text2">❖</text>
     <text
        class="mega-name"
@@ -103,8 +104,8 @@
        id="rect3" />
     <text
        class="mega-symbol"
-       x="22.813828"
-       y="277.76022"
+       x="23.864441"
+       y="272.85736"
        id="text4">⁂</text>
     <text
        class="mega-name"
@@ -125,13 +126,13 @@
        id="rect5" />
     <text
        class="macos-symbol"
-       x="24.735586"
-       y="430.91949"
+       x="24.139688"
+       y="432.84845"
        id="text6">⌃</text>
     <text
        class="macos-name"
        x="24.735586"
-       y="466.08966"
+       y="466.72632"
        id="text7">control</text>
   </g>
   <!-- Left Option -->
@@ -147,13 +148,13 @@
        id="rect7" />
     <text
        class="macos-symbol"
-       x="188.58647"
-       y="432.7356"
+       x="196.86302"
+       y="431.78061"
        id="text8">⌥</text>
     <text
        class="macos-name"
-       x="173.69443"
-       y="466.45288"
+       x="173.05777"
+       y="466.77121"
        id="text9">option</text>
   </g>
   <!-- Left Command -->
@@ -169,13 +170,13 @@
        id="rect9" />
     <text
        class="macos-symbol"
-       x="320.11072"
-       y="436.00458"
+       x="323.61234"
+       y="433.13962"
        id="text10">⌘</text>
     <text
        class="macos-name"
-       x="273.98172"
-       y="466.08966"
+       x="271.43509"
+       y="467.04465"
        id="text11">command</text>
   </g>
   <!-- Right Command - FORCE -->
@@ -191,13 +192,13 @@
        id="rect11" />
     <text
        class="mega-symbol"
-       x="856.17285"
-       y="434.9693"
+       x="861.64825"
+       y="433.18597"
        id="text12">▲</text>
     <text
        class="mega-name"
-       x="860.16272"
-       y="467.60208"
+       x="861.11774"
+       y="466.64709"
        id="text13">FORCE</text>
   </g>
   <!-- Right Option - WISH -->
@@ -213,13 +214,13 @@
        id="rect13" />
     <text
        class="mega-symbol"
-       x="981.78448"
-       y="432.5488"
+       x="983.88574"
+       y="429.04675"
        id="text14">⭑</text>
     <text
        class="mega-name"
-       x="982.8772"
-       y="467.42862"
+       x="983.22742"
+       y="466.37799"
        id="text15">WISH</text>
   </g>
   <!-- Right Control - CHAOS -->
@@ -235,13 +236,13 @@
        id="rect15" />
     <text
        class="mega-symbol"
-       x="1155.2048"
-       y="434.79584"
+       x="1160.4579"
+       y="431.64398"
        id="text16">❋</text>
     <text
        class="mega-name"
-       x="1128.3165"
-       y="467.08167"
+       x="1123.0635"
+       y="466.38126"
        id="text17">CHAOS</text>
   </g>
 </svg>
