@@ -33,15 +33,15 @@ Mega is the foundation. All other modifiers derive from it:
 
 **Windows/Linux:**
 ```
-               ❖ Giga (⇧ Ctrl+⊞+Alt)
+               ❖ Giga (⇧ Ctrl+Win+Alt)
                  ↑ +Shift
                  │
  ⭑ Main ←────── ⁂ Mega ──────→ ❋ Chaos
-  (⊞+Alt)      (Ctrl+⊞+Alt)    (Ctrl+⊞)
+ (Win+Alt)    (Ctrl+Win+Alt)   (Ctrl+Win)
   -Ctrl           │              -Alt
                    ↓
                ▲ Sub (Ctrl+Alt)
-                   -⊞
+                  -Win
 ```
 
 ### Why Mega/Giga Instead of Hyper/Meh?
