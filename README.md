@@ -23,9 +23,9 @@ Mega is the foundation. All other modifiers derive from it:
               ❖ Giga (⇧⌃⌥⌘)
                 ↑ +Shift
                 │
- ❋ Chaos ←───── ⁂ Mega ─────→ ⭑ Wish
-   (⌃⌥)         (⌃⌥⌘)          (⌥⌘)
-   -Cmd           │            -Ctrl
+ ⭑ Wish ←───── ⁂ Mega ─────→ ❋ Chaos
+   (⌥⌘)         (⌃⌥⌘)          (⌃⌥)
+  -Ctrl           │            -Cmd
                   ↓
                 ▲ Force (⌃⌘)
                   -Opt
@@ -33,15 +33,15 @@ Mega is the foundation. All other modifiers derive from it:
 
 **Windows/Linux:**
 ```
-               ❖ Giga (⇧ Ctrl+Win+Alt)
+               ❖ Giga (⇧ Ctrl+⊞+Alt)
                  ↑ +Shift
                  │
- ❋ Chaos ←────── ⁂ Mega ──────→ ⭑ Main
- (Ctrl+Win)    (Ctrl+Win+Alt)   (Win+Alt)
-    -Alt           │             -Ctrl
+ ⭑ Main ←────── ⁂ Mega ──────→ ❋ Chaos
+  (⊞+Alt)      (Ctrl+⊞+Alt)    (Ctrl+⊞)
+  -Ctrl           │              -Alt
                    ↓
                ▲ Sub (Ctrl+Alt)
-                  -Win
+                   -⊞
 ```
 
 ### Why Mega/Giga Instead of Hyper/Meh?
