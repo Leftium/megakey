@@ -20,36 +20,36 @@
   
   <!-- Tab - GIGA -->
   <g id="key-giga">
-    <rect class="mega-overlay" x="27" y="168" width="105" height="72" rx="8"/>
-    <text class="mega-symbol" x="39" y="198">❖</text>
-    <text class="mega-name" x="39" y="232">GIGA</text>
+    <rect class="mega-overlay" x="20" y="172" width="105" height="64" rx="8"/>
+    <text class="mega-symbol" x="32" y="202">❖</text>
+    <text class="mega-name" x="32" y="228">GIGA</text>
   </g>
   
   <!-- Caps Lock - MEGA -->
   <g id="key-mega">
-    <rect class="mega-overlay" x="27" y="248" width="125" height="72" rx="8"/>
-    <text class="mega-symbol" x="39" y="280">⁂</text>
-    <text class="mega-name" x="39" y="312">MEGA</text>
+    <rect class="mega-overlay" x="20" y="252" width="125" height="64" rx="8"/>
+    <text class="mega-symbol" x="32" y="282">⁂</text>
+    <text class="mega-name" x="32" y="308">MEGA</text>
   </g>
   
   <!-- Right Command - FORCE -->
   <g id="key-force">
-    <rect class="mega-overlay" x="952" y="400" width="78" height="68" rx="8"/>
-    <text class="mega-symbol" x="962" y="430">▲</text>
-    <text class="mega-name" x="962" y="460">FORCE</text>
+    <rect class="mega-overlay" x="878" y="410" width="90" height="65" rx="8"/>
+    <text class="mega-symbol" x="890" y="440">▲</text>
+    <text class="mega-name" x="890" y="465">FORCE</text>
   </g>
   
   <!-- Right Option - WISH -->
   <g id="key-wish">
-    <rect class="mega-overlay" x="1038" y="400" width="78" height="68" rx="8"/>
-    <text class="mega-symbol" x="1048" y="430">⭑</text>
-    <text class="mega-name" x="1048" y="460">WISH</text>
+    <rect class="mega-overlay" x="976" y="410" width="90" height="65" rx="8"/>
+    <text class="mega-symbol" x="988" y="440">⭑</text>
+    <text class="mega-name" x="988" y="465">WISH</text>
   </g>
   
   <!-- Right Control - CHAOS -->
   <g id="key-chaos">
-    <rect class="mega-overlay" x="1124" y="400" width="68" height="68" rx="8"/>
-    <text class="mega-symbol" x="1134" y="430">❋</text>
-    <text class="mega-name" x="1134" y="460">CHAOS</text>
+    <rect class="mega-overlay" x="1074" y="410" width="90" height="65" rx="8"/>
+    <text class="mega-symbol" x="1086" y="440">❋</text>
+    <text class="mega-name" x="1086" y="465">CHAOS</text>
   </g>
 </svg>
