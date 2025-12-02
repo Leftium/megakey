@@ -38,7 +38,7 @@
        width="1.8566797"
        height="2.2583717">
       <feGaussianBlur
-         stdDeviation="2"
+         stdDeviation="6"
          result="blur"
          id="feGaussianBlur1" />
       <feMerge
@@ -54,10 +54,10 @@
   </defs>
   <style
      id="style2">
-    .mega-overlay { fill: #2196f3; fill-opacity: 0.3; stroke: #2196f3; stroke-width: 3; stroke-opacity: 0.5; }
+    .mega-overlay { fill: #2196f3; fill-opacity: 0.3; stroke: #2196f3; stroke-width: 3; stroke-opacity: 0.5; filter: url(#glow); }
     .mega-symbol { font-size: 20px; font-weight: bold; fill: #1565c0; text-anchor: start; font-family: 'SF Pro'; }
     .mega-name { font-size: 15px; font-weight: bold; fill: #1565c0; text-anchor: start; font-family: 'SF Pro'; }
-    .macos-overlay { fill: #9c27b0; fill-opacity: 0.3; stroke: #9c27b0; stroke-width: 3; stroke-opacity: 0.5; }
+    .macos-overlay { fill: #9c27b0; fill-opacity: 0.3; stroke: #9c27b0; stroke-width: 3; stroke-opacity: 0.5; filter: url(#glow); }
     .macos-symbol { font-size: 20px; font-weight: bold; fill: #6a1b9a; text-anchor: start; font-family: 'SF Pro'; }
     .macos-name { font-size: 15px; font-weight: bold; fill: #6a1b9a; text-anchor: start; font-family: 'SF Pro'; }
   </style>
