@@ -46,19 +46,15 @@ Install [Karabiner-Elements](https://karabiner-elements.pqrs.org/) first.
 
 ### Option 1: Import URL (Recommended)
 
-Click one of the following links to import directly into Karabiner-Elements:
+Copy and paste one of the following URLs into your browser:
 
 **Default** (CapsLock tap → CapsLock):
-
-<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Leftium/megakey/main/megakey.json">Install MegaKey</a>
 
 ```
 karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Leftium/megakey/main/megakey.json
 ```
 
 **Esc variant** (CapsLock tap → Esc):
-
-<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Leftium/megakey/main/megakey-esc.json">Install MegaKey (Esc)</a>
 
 ```
 karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Leftium/megakey/main/megakey-esc.json
