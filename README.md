@@ -10,7 +10,7 @@ MegaKey consists of two parts:
 1. Mental tools (for your mind)
 2. Software tools (for your fingers)
 
-| Symbol | Name | Physical Key | Modifiers | Notes |
+|  | Name | Physical Key | Modifiers | Notes |
 |-------:|------|--------------|----------:|-------|
 | **⁂** | Mega | <kbd>CapsLock</kbd> | ⌃⌥⌘ | Base combination |
 | **❖** | Giga | <kbd>Tab</kbd> | ⇧⌃⌥⌘ | Mega with Shift |
