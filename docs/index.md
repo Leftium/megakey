@@ -57,13 +57,14 @@ Install [Karabiner-Elements](https://karabiner-elements.pqrs.org/) first.
 
 Copy and paste one of the following URLs into your browser:
 
-**Default** (CapsLock tap → CapsLock):
+[**Default** (CapsLock tap → CapsLock)](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Leftium/megakey/main/megakey.json):
 
 ```
 karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Leftium/megakey/main/megakey.json
 ```
 
-**Esc variant** (CapsLock tap → Esc):
+
+[**Esc variant** (CapsLock tap → Esc)](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Leftium/megakey/main/megakey-esc.json):
 
 ```
 karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Leftium/megakey/main/megakey-esc.json
