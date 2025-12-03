@@ -18,4 +18,4 @@ MegaKey consists of two parts:
 | **▲** | Force | <kbd>Right Option</kbd> | ⌃⌘ | Mega without Opt |
 | **❋** | Chaos | <kbd>Right Ctrl</kbd> | ⌥⌘ | Mega without Ctrl |
 
-### [Full documenation](https://leftium.github.io/megakey/)
+### [Full documentation](https://leftium.github.io/megakey/)
