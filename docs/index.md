@@ -27,7 +27,7 @@ MegaKey consists of two parts:
 
 ## The 5 new pseudo-modifier keys
 
-| Symbol | Name | Physical Key | Modifiers | Notes |
+| | Name | Physical Key | Modifiers | Notes |
 |-------:|------|--------------|----------:|-------|
 | **⁂** | Mega | <kbd>CapsLock</kbd> | ⌃⌥⌘ | Base combination |
 | **❖** | Giga | <kbd>Tab</kbd> | ⇧⌃⌥⌘ | Mega with Shift |
