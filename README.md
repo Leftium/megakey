@@ -12,14 +12,14 @@
  
 MegaKey consists of two parts:
 
-### 1. Mental tools (for your mind)
+#### 1. Mental tools (for your mind)
 
 - Simplify complex combinations of modifiers to a single word or symbol.
 - 5 pseudo-modifiers designed as single pseudo-modifier with 4 extra variations.
 - Easier to remember/read/write/dictate: `Giga-C` (<kbd>❖</kbd><kbd>C</kbd>) vs `Shift-Ctrl-Option-Cmd-C` (<kbd>⇧</kbd><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⌘C</kbd>).
 - The mental tools are cross-platform and work with standard keyboard layouts.
 
-### 2. Software tools (for your fingers)
+#### 2. Software tools (for your fingers)
 
 - Complex combinations of modifiers simplified to a single keypress via [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 - For example: `CapsLock` converts to `Ctrl-Option-Cmd` (tapping `CapsLock` by itself still results in `CapsLock`)
