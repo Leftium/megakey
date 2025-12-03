@@ -1,5 +1,3 @@
-# MegaKey
-
 [GitHub Repository](https://github.com/Leftium/megakey)
 
 ## Standardization and extension of the Hyper (and Meh) key
