@@ -1,3 +1,6 @@
+
+![](https://leftium.github.io/megakey/assets/keyboard.png?1)
+
 # MegaKey: standardization and extension of the Hyper (and Meh) key
 
 ### A system of 5 new pseudo-modifier keys that works on standard keyboards
