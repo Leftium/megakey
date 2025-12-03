@@ -39,11 +39,14 @@ MegaKey consists of two parts:
 
 ### The 4 variations of Mega differ by a single modifier key:
 ```
-                     ❖ Giga (Shift added)
-                               ↑ 
- ⭑ Wish (Cmd removed) ←──── ⁂ Mega ────→ ❋ Chaos (Ctrl removed)
-                               ↓
-                     ▲ Force (Opt removed)                
+             Shift added
+             ❖ Giga
+                 ↑
+⭑ Wish ←──── ⁂ Mega ────→ ❋ Chaos 
+Cmd removed      │        Ctrl removed
+                 ↓
+             ▲ Force
+             Opt removed                
 ```
 
 
