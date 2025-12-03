@@ -1,10 +1,10 @@
-## MegaKey: standardization and extension of the Hyper (and Meh) key
+# MegaKey
+
+## Standardization and extension of the Hyper (and Meh) key
 
 ![](https://leftium.github.io/megakey/assets/keyboard.png?1)
 
-
-
-### A system of 5 new pseudo-modifier keys that works on standard keyboards
+### A system of 5 pseudo-modifier keys that works on standard keyboards
 - Useful for (global) keyboard shortcuts that don't clash with system or app bindings.
 - Can bind `Mega` for universal cut/copy/paste/etc on both Windows (`Ctrl`) and MacOS (`Cmd`). (Plus `Mega` is more comfortable/ergonomic!)
 - Free to choose memorable keys like `Chaos-V` for pasting from clipboard history.
