@@ -69,7 +69,13 @@ Cmd removed      │        Ctrl removed
 
 ## This table summarizes all the keys:
 
-[INSERT TABLE]
+|        | Name  | Single Key              | Multiple Keys                                               | ⇧ | ⌃ | ⌥ | ⌘ | Notes             |
+|-------:|-------|-------------------------|-------------------------------------------------------------|---|---|---|---|-------------------|
+| **⁂** | Mega  | <kbd>CapsLock</kbd>     | <kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd>                 |   | ⌃ | ⌥ | ⌘ | Base combination  |
+| **❖** | Giga  | <kbd>Tab</kbd>          | <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd> | ⇧ | ⌃ | ⌥ | ⌘ | Mega with Shift   |
+| **⭑** | Wish  | <kbd>Right Cmd</kbd>    | <kbd>Ctrl</kbd><kbd>Opt</kbd>                               |   | ⌃ | ⌥ |   | Mega without Cmd  |
+| **▲** | Force | <kbd>Right Option</kbd> | <kbd>Ctrl</kbd><kbd>Cmd</kbd>                               |   | ⌃ |   | ⌘ | Mega without Opt  |
+| **❋** | Chaos | <kbd>Right Ctrl</kbd>   | <kbd>Opt</kbd><kbd>Cmd</kbd>                                |   |   | ⌥ | ⌘ | Mega without Ctrl |
 
 
 ## Windows/Linux versions
