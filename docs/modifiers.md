@@ -1,17 +1,4 @@
 # Modifier Details
-
-```
-             Shift added
-             ❖ Giga
-                 ↑
-⭑ Wish ←──── ⁂ Mega ────→ ❋ Chaos 
-Cmd removed      │        Ctrl removed
-                 ↓
-             ▲ Force
-             Opt removed                
-```
-*The 4 variations of Mega differ by a single modifier key*
-
 ![](https://leftium.github.io/megakey/assets/keyboard.png)
 
 ## The two main keys
@@ -24,6 +11,18 @@ Cmd removed      │        Ctrl removed
 - The name "Mega" was chosen because some related conventions call this combination "Meh" ("Meh"-ga)
 - ⁂ is the symbol for Mega. It represents the three keys that are pressed. 
 - Software can be used to repurpose the [CapsLock] key into a physical [Mega] key.
+
+```
+             Shift added
+             ❖ Giga
+                 ↑
+⭑ Wish ←──── ⁂ Mega ────→ ❋ Chaos 
+Cmd removed      │        Ctrl removed
+                 ↓
+             ▲ Force
+             Opt removed                
+```
+*The 4 variations of Mega differ by a single modifier key*
 
 ### Giga is the bigger variant
 
