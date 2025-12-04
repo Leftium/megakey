@@ -5,10 +5,10 @@
 - Standardization and extension of the Hyper (and Meh) key
 - A system of 5 pseudo-modifier keys that works on standard keyboards
  
-MegaKey consists of two parts:
+## MegaKey consists of two parts:
 
-1. Mental tools (for your mind)
-2. Software tools (for your fingers)
+1. [Mental tools](https://leftium.github.io/megakey/#1-mental-tools-for-your-mind) (for your mind)
+2. [Software tools](https://leftium.github.io/megakey/#2-software-tools-for-your-fingers) (for your fingers)
 
 |  | Name | Physical Key | Modifiers | Notes |
 |-------:|------|--------------|----------:|-------|
@@ -19,3 +19,4 @@ MegaKey consists of two parts:
 | **❋** | Chaos | <kbd>Right Ctrl</kbd> | ⌥⌘ | Mega without Ctrl |
 
 ### [Full documentation](https://leftium.github.io/megakey/)
+- [Installation](https://leftium.github.io/megakey/#installation)
