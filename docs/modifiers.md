@@ -108,4 +108,10 @@ Alt removed      │        Ctrl removed
 
 ## Prior Art
 
-TODO
+- The [Space Cadet keyboard](https://en.wikipedia.org/wiki/Space-cadet_keyboard) had actual physical Hyper key. So this was probably the first Hyper key.
+- Raycast includes a [feature](https://manual.raycast.com/hyperkey) to map Hyper to CapLock
+- Ben Davis https://www.davis7.sh/karabiner
+- While many descriptions exist of mapping https://kevinkipp.com/blog/meh-and-hyper-for-normal-keyboards/
+- https://zenmushie.medium.com/how-to-get-your-very-own-hyper-key-0c91ed4a84ff
+- https://juleslibert.com/en/thoughts/remapping-capslock-to-hyperkey
+
