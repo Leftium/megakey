@@ -36,4 +36,5 @@ Choose one:
 - **megakey-esc.json** - CapsLock tap sends Esc (popular for Vim users)
 
 > [!TIP]
+>
 > Both versions support Fn+CapsLock to toggle Caps Lock on/off.
