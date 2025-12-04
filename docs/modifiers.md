@@ -1,5 +1,17 @@
 # Modifier Details
 
+## The 4 variations of Mega differ by a single modifier key:
+```
+             Shift added
+             ❖ Giga
+                 ↑
+⭑ Wish ←──── ⁂ Mega ────→ ❋ Chaos 
+Cmd removed      │        Ctrl removed
+                 ↓
+             ▲ Force
+             Opt removed                
+```
+
 ## Mega is the Center
 
 Mega is the foundation. All other modifiers derive from it:
