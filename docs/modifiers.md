@@ -80,7 +80,24 @@ Cmd removed      │        Ctrl removed
 
 ## Windows/Linux versions
 
-TODO
+```
+             Shift added
+             ❖ Giga
+                 ↑
+⭑ Main ←──── ⁂ Mega ────→ ❋ Chaos 
+Alt removed      │        Ctrl removed
+                 ↓
+             ▲ Sub
+             Win removed                
+```
+
+|        | Name  | Single Key              | Multiple Keys                                               | Notes             |
+|-------:|-------|-------------------------|-------------------------------------------------------------|-------------------|
+| **⁂** | Mega  | <kbd>CapsLock</kbd>     | <kbd>Ctrl</kbd><kbd>Win</kbd><kbd>Alt</kbd>                 | Base combination  |
+| **❖** | Giga  | <kbd>Tab</kbd>          | <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Win</kbd><kbd>Alt</kbd> | Mega with Shift   |
+| **⭑** | Main  | <kbd>Right Win</kbd>    | <kbd>Ctrl</kbd><kbd>Win</kbd>                               | Mega without Alt  |
+| **▲** | Sub   | <kbd>Right Alt</kbd>    | <kbd>Ctrl</kbd><kbd>Alt</kbd>                               | Mega without Win  |
+| **❋** | Chaos | <kbd>Right Ctrl</kbd>   | <kbd>Win</kbd><kbd>Alt</kbd>                                | Mega without Ctrl |
 
 ## Prior Art
 
