@@ -39,15 +39,14 @@ Cmd removed      │        Ctrl removed
 - Unlike Mega/Giga, the anti keys have shifted versions (that don't have special names on their own)
   - For example both `Wish` and `Shift-Wish` are unique. While `Shift-Mega` is just `Giga` and `Shift-Giga` doesn't make sense.
 
-### Wish
+### Chaos
 
-- Wish is the "Anti-cmd" pseudo-key: Mega minus Cmd (<kbd>Ctrl</kbd><kbd>Opt</kbd>)
-- ⭑ is the symbol for Wish.
-- Software can be used to repurpose <kbd>Right Cmd</kbd> for <kbd>Wish</kbd>
+- Chaos is the "Anti-ctrl" pseudo-key: Mega minus Ctrl (<kbd>Opt</kbd><kbd>Cmd</kbd>)
+- ❋ is the symbol for Chaos.
+- Software can be used to repurpose <kbd>Right Ctrl</kbd> for <kbd>Chaos</kbd>
 - Mnemonics
-  - "Your wish is my command"
-  - "Wish" is a less agressive form of "command"
-  - "Wish upon a star" (for the ⭑ symbol)
+  - "Chaos" implies "uncontrolled."
+  - ❋ symbol is similar to the [Chaos Star](https://en.wikipedia.org/wiki/Symbol_of_Chaos)
 
 ### Force
 
@@ -58,14 +57,15 @@ Cmd removed      │        Ctrl removed
   - To "force" is to leave no "option."
   - Triforce (▲ resembles artifact from [Zelda](https://en.wikipedia.org/wiki/Triforce))
 
-### Chaos
+### Wish
 
-- Chaos is the "Anti-ctrl" pseudo-key: Mega minus Ctrl (<kbd>Opt</kbd><kbd>Cmd</kbd>)
-- ❋ is the symbol for Chaos.
-- Software can be used to repurpose <kbd>Right Ctrl</kbd> for <kbd>Chaos</kbd>
+- Wish is the "Anti-cmd" pseudo-key: Mega minus Cmd (<kbd>Ctrl</kbd><kbd>Opt</kbd>)
+- ⭑ is the symbol for Wish.
+- Software can be used to repurpose <kbd>Right Cmd</kbd> for <kbd>Wish</kbd>
 - Mnemonics
-  - "Chaos" implies "uncontrolled."
-  - ❋ symbol is similar to the [Chaos Star](https://en.wikipedia.org/wiki/Symbol_of_Chaos)
+  - "Your wish is my command"
+  - "Wish" is a less agressive form of "command"
+  - "Wish upon a star" (for the ⭑ symbol)
 
 ## The following table summarizes all the keys:
 
@@ -103,8 +103,8 @@ Alt removed      │        Ctrl removed
 | **⁂** | Mega  | <kbd>CapsLock</kbd>     | <kbd>Ctrl</kbd><kbd>Win</kbd><kbd>Alt</kbd>                 | Base combination  |
 | **❖** | Giga  | <kbd>Tab</kbd>          | <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Win</kbd><kbd>Alt</kbd> | Mega with Shift   |
 | **❋** | Chaos | <kbd>Right Ctrl</kbd>   | <kbd>Win</kbd><kbd>Alt</kbd>                                | Mega without Ctrl |
-| **▲** | Sub.Force   | <kbd>Right Alt</kbd>    | <kbd>Ctrl</kbd><kbd>Alt</kbd>                               | Mega without Win  |
-| **⭑** | Main.Wish  | <kbd>Right Win</kbd>    | <kbd>Ctrl</kbd><kbd>Win</kbd>                               | Mega without Alt  |
+| *▲* | *Sub.Force*   | *<kbd>Right Alt</kbd>*    | *<kbd>Ctrl</kbd><kbd>Alt</kbd>*                               | *Mega without Win*  |
+| *⭑* | *Main.Wish*  | *<kbd>Right Win</kbd>*    | *<kbd>Ctrl</kbd><kbd>Win</kbd>*                               | *Mega without Alt*  |
 
 ## Prior Art
 
