@@ -6,11 +6,11 @@
 ### It starts with the Mega key
 
 - Mega is a pseudo-key; there is no physical "Mega" key
-- "Mega" represents pressing all three modifier keys at the same time ([Ctrl][Opt][Cmd])
+- "Mega" represents pressing all three modifier keys at the same time (<kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd>)
 - This combination is relatively easy. Both to recall and press.
 - The name "Mega" was chosen because some related conventions call this combination "Meh" ("Meh"-ga)
 - ⁂ is the symbol for Mega. It represents the three keys that are pressed. 
-- Software can be used to repurpose the [CapsLock] key into a physical [Mega] key.
+- Software can be used to repurpose the <kbd>CapsLock</kbd> key into a physical <kbd>Mega</kbd> key.
 
 ```
              Shift added
@@ -26,11 +26,11 @@ Cmd removed      │        Ctrl removed
 
 ### Giga is the bigger variant
 
-- Giga is another pseudo-key: Shift+Mega ([Shift][Ctrl][Opt][Cmd])
+- Giga is another pseudo-key: Shift+Mega (<kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd>)
 - Giga is the shifted version of Mega. (Think SI prefixes)
 - ❖ is the symbol for Mega. It represents the four keys that are pressed. 
-- Software can be used to repurpose the [Tab] key into a physical [Giga]
-- Giga can also be accessed via [Shift][CapsLock] if CapsLock has been configured as the Mega key.
+- Software can be used to repurpose the <kbd>Tab</kbd> key into a physical <kbd>Giga</kbd>
+- Giga can also be accessed via <kbd>Shift</kbd><kbd>CapsLock</kbd> if CapsLock has been configured as the Mega key.
 
 ## The three additional "anti" keys
 
@@ -41,9 +41,9 @@ Cmd removed      │        Ctrl removed
 
 ### Wish
 
-- Wish is the "Anti-cmd" pseudo-key: Mega minus Cmd (Ctrl][Opt])
+- Wish is the "Anti-cmd" pseudo-key: Mega minus Cmd (<kbd>Ctrl</kbd><kbd>Opt</kbd>)
 - ⭑ is the symbol for Wish.
-- Software can be used to repurpose [Right Ctrl] for [Wish]
+- Software can be used to repurpose <kbd>Right Cmd</kbd> for <kbd>Wish</kbd>
 - Mnemonics
   - "Your wish is my command"
   - "Wish" is a less agressive form of "command"
@@ -51,18 +51,18 @@ Cmd removed      │        Ctrl removed
 
 ### Force
 
-- Force is the "Anti-opt" pseudo-key: Mega minus Opt (Ctrl][Cmd])
+- Force is the "Anti-opt" pseudo-key: Mega minus Opt (<kbd>Ctrl</kbd><kbd>Cmd</kbd>)
 - ▲ is the symbol for Force.
-- Software can be used to repurpose [Right Option] for [Force]
+- Software can be used to repurpose <kbd>Right Option</kbd> for <kbd>Force</kbd>
 - Mnemonics
   - To "force" is to leave no "option."
   - Triforce (▲ resembles artifact from [Zelda](https://en.wikipedia.org/wiki/Triforce))
 
 ### Chaos
 
-- Chaos is the "Anti-ctrl" pseudo-key: Mega minus Ctrl ([Opt][Cmd])
+- Chaos is the "Anti-ctrl" pseudo-key: Mega minus Ctrl (<kbd>Opt</kbd><kbd>Cmd</kbd>)
 - ❋ is the symbol for Chaos.
-- Software can be used to repurpose [Right Ctrl] for [Chaos]
+- Software can be used to repurpose <kbd>Right Ctrl</kbd> for <kbd>Chaos</kbd>
 - Mnemonics
   - "Chaos" implies "uncontrolled."
   - ❋ symbol is similar to the [Chaos Star](https://en.wikipedia.org/wiki/Symbol_of_Chaos)
