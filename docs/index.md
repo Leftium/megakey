@@ -35,6 +35,11 @@ MegaKey consists of two parts:
 | **▲** | Force | <kbd>Right Option</kbd> | <kbd>Ctrl</kbd><kbd>Cmd</kbd>                               | Mega without Opt  |
 | **❋** | Chaos | <kbd>Right Ctrl</kbd>   | <kbd>Opt</kbd><kbd>Cmd</kbd>                                | Mega without Ctrl |
 
+This was just a brief overview. See [detailed guide](https://leftium.github.io/megakey/modifiers) for:
+- Design rationale
+- Mnemonics to help remember
+- Windows/Linux version
+- Prior art
 
 ## Quick Start
 
@@ -46,6 +51,10 @@ That's it! Hold Caps Lock to activate MegaKey. Tap it for Escape.
 
 > [!TIP]
 > Press Fn+CapsLock to toggle Caps Lock on/off.
+
+See [detailed installation guide](https://leftium.github.io/megakey/installation) for:
+- Manual installation
+- CapsLock version
 
 ## License
 
