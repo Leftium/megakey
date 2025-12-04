@@ -6,6 +6,9 @@
    id="svg17"
    sodipodi:docname="keyboard.svg"
    inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   inkscape:export-filename="keyboard.png"
+   inkscape:export-xdpi="80.959999"
+   inkscape:export-ydpi="80.959999"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +26,7 @@
      inkscape:cx="1006.0792"
      inkscape:cy="-129.77603"
      inkscape:window-width="2560"
-     inkscape:window-height="1387"
+     inkscape:window-height="1359"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
@@ -33,10 +36,10 @@
      id="defs2">
     <filter
        id="glow"
-       x="-0.42833987"
-       y="-0.62918587"
-       width="1.8566797"
-       height="2.2583717">
+       x="-0.17699431"
+       y="-0.23489172"
+       width="1.3539886"
+       height="1.4697834">
       <feGaussianBlur
          stdDeviation="6"
          result="blur"
@@ -69,7 +72,6 @@
      width="1200"
      height="491"
      id="image2" />
-
   <!-- Tab - GIGA -->
   <g
      id="key-giga">
@@ -180,9 +182,9 @@
        y="467.04465"
        id="text11">command</text>
   </g>
-  <!-- Right Command - FORCE -->
+  <!-- Right Command - WISH -->
   <g
-     id="key-force">
+     id="key-wish">
     <rect
        class="mega-overlay"
        x="852.23334"
@@ -195,16 +197,16 @@
        class="mega-symbol"
        x="861.64825"
        y="433.18597"
-       id="text12">▲</text>
+       id="text12">⭑</text>
     <text
        class="mega-name"
        x="861.11774"
        y="466.64709"
-       id="text13">FORCE</text>
+       id="text13">WISH</text>
   </g>
-  <!-- Right Option - WISH -->
+  <!-- Right Option - FORCE -->
   <g
-     id="key-wish">
+     id="key-force">
     <rect
        class="mega-overlay"
        x="973.99689"
@@ -217,12 +219,12 @@
        class="mega-symbol"
        x="983.88574"
        y="429.04675"
-       id="text14">⭑</text>
+       id="text14">▲</text>
     <text
        class="mega-name"
        x="983.22742"
        y="466.37799"
-       id="text15">WISH</text>
+       id="text15">FORCE</text>
   </g>
   <!-- Right Control - CHAOS -->
   <g
