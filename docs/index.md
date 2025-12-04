@@ -31,9 +31,9 @@ MegaKey consists of two parts:
 |-------:|-------|-------------------------|------------------------------------------------------------:|-------------------|
 | **⁂** | Mega  | <kbd>CapsLock</kbd>     | <kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd>                 | Base combination  |
 | **❖** | Giga  | <kbd>Tab</kbd>          | <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd> | Mega with Shift   |
-| **⭑** | Wish  | <kbd>Right Cmd</kbd>    | <kbd>Ctrl</kbd><kbd>Opt</kbd>                               | Mega without Cmd  |
-| **▲** | Force | <kbd>Right Option</kbd> | <kbd>Ctrl</kbd><kbd>Cmd</kbd>                               | Mega without Opt  |
 | **❋** | Chaos | <kbd>Right Ctrl</kbd>   | <kbd>Opt</kbd><kbd>Cmd</kbd>                                | Mega without Ctrl |
+| **▲** | Force | <kbd>Right Option</kbd> | <kbd>Ctrl</kbd><kbd>Cmd</kbd>                               | Mega without Opt  |
+| **⭑** | Wish  | <kbd>Right Cmd</kbd>    | <kbd>Ctrl</kbd><kbd>Opt</kbd>                               | Mega without Cmd  |
 
 See detailed [pseudo-modifier guide](https://leftium.github.io/megakey/modifiers) for:
 - Design rationale

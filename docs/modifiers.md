@@ -73,9 +73,9 @@ Cmd removed      │        Ctrl removed
 |-------:|-------|-------------------------|-------------------------------------------------------------|---|---|---|---|-------------------|
 | **⁂** | Mega  | <kbd>CapsLock</kbd>     | <kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd>                 |   | ⌃ | ⌥ | ⌘ | Base combination  |
 | **❖** | Giga  | <kbd>Tab</kbd>          | <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd> | ⇧ | ⌃ | ⌥ | ⌘ | Mega with Shift   |
-| **⭑** | Wish  | <kbd>Right Cmd</kbd>    | <kbd>Ctrl</kbd><kbd>Opt</kbd>                               |   | ⌃ | ⌥ |   | Mega without Cmd  |
-| **▲** | Force | <kbd>Right Option</kbd> | <kbd>Ctrl</kbd><kbd>Cmd</kbd>                               |   | ⌃ |   | ⌘ | Mega without Opt  |
 | **❋** | Chaos | <kbd>Right Ctrl</kbd>   | <kbd>Opt</kbd><kbd>Cmd</kbd>                                |   |   | ⌥ | ⌘ | Mega without Ctrl |
+| **▲** | Force | <kbd>Right Option</kbd> | <kbd>Ctrl</kbd><kbd>Cmd</kbd>                               |   | ⌃ |   | ⌘ | Mega without Opt  |
+| **⭑** | Wish  | <kbd>Right Cmd</kbd>    | <kbd>Ctrl</kbd><kbd>Opt</kbd>                               |   | ⌃ | ⌥ |   | Mega without Cmd  |
 
 
 ## Windows/Linux versions
@@ -102,9 +102,9 @@ Alt removed      │        Ctrl removed
 |-------:|-------|-------------------------|-------------------------------------------------------------|-------------------|
 | **⁂** | Mega  | <kbd>CapsLock</kbd>     | <kbd>Ctrl</kbd><kbd>Win</kbd><kbd>Alt</kbd>                 | Base combination  |
 | **❖** | Giga  | <kbd>Tab</kbd>          | <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Win</kbd><kbd>Alt</kbd> | Mega with Shift   |
-| **⭑** | Main.Wish  | <kbd>Right Win</kbd>    | <kbd>Ctrl</kbd><kbd>Win</kbd>                               | Mega without Alt  |
-| **▲** | Sub.Force   | <kbd>Right Alt</kbd>    | <kbd>Ctrl</kbd><kbd>Alt</kbd>                               | Mega without Win  |
 | **❋** | Chaos | <kbd>Right Ctrl</kbd>   | <kbd>Win</kbd><kbd>Alt</kbd>                                | Mega without Ctrl |
+| **▲** | Sub.Force   | <kbd>Right Alt</kbd>    | <kbd>Ctrl</kbd><kbd>Alt</kbd>                               | Mega without Win  |
+| **⭑** | Main.Wish  | <kbd>Right Win</kbd>    | <kbd>Ctrl</kbd><kbd>Win</kbd>                               | Mega without Alt  |
 
 ## Prior Art
 
