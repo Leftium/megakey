@@ -7,8 +7,8 @@
  
 ## MegaKey consists of two parts:
 
-1. [Mental tools](https://leftium.github.io/megakey/#1-mental-tools-for-your-mind) (for your mind)
-2. [Software tools](https://leftium.github.io/megakey/#2-software-tools-for-your-fingers) (for your fingers)
+1. [Mental tools](https://leftium.github.io/megakey/#1-mental-tools-for-your-mind) (for your mind): simplify complex combinations of modifiers to a single word or symbol.
+2. [Software tools](https://leftium.github.io/megakey/#2-software-tools-for-your-fingers) (for your fingers): simplify complex/awkward combinations of modifiers to a single keypress.
 
 |  | Name | Physical Key | Modifiers | Notes |
 |-------:|------|--------------|----------:|-------|
