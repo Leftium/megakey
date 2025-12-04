@@ -50,6 +50,14 @@ Cmd removed      │        Ctrl removed
 ```
 
 
+## Quick Start
+
+1. Install [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+2. Import the MegaKey rule: [Caps Lock → MegaKey](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Leftium/megakey/main/megakey-esc.json)
+3. Enable it in Karabiner-Elements → Complex Modifications
+
+That's it! Hold Caps Lock to activate MegaKey. Tap it for Escape.
+
 ## Installation
 
 ### Prerequisites

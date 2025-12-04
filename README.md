@@ -19,4 +19,5 @@
 | **❋** | Chaos | <kbd>Right Ctrl</kbd>   | <kbd>Opt</kbd><kbd>Cmd</kbd>                                |   |   | ⌥ | ⌘ | Mega without Ctrl |
 
 ### [Full documentation](https://leftium.github.io/megakey/)
+- [Quick Start](https://leftium.github.io/megakey/#quick-start)
 - [Installation](https://leftium.github.io/megakey/#installation)
