@@ -67,7 +67,7 @@ Cmd removed      │        Ctrl removed
   - "Wish" is a less agressive form of "command"
   - "Wish upon a star" (for the ⭑ symbol)
 
-## The following table summarizes all the keys:
+### The following table summarizes all the keys:
 
 |        | Name  | Single Key              | Multiple Keys                                               | ⇧ | ⌃ | ⌥ | ⌘ | Notes             |
 |-------:|-------|-------------------------|-------------------------------------------------------------|---|---|---|---|-------------------|
