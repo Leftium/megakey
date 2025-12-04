@@ -21,7 +21,7 @@ MegaKey consists of two parts:
 
 #### 2. Software tools (for your fingers)
 
-- Complex combinations of modifiers simplified to a single keypress via [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+- Simplify complex/awkward combinations of modifiers to a single keypress via [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 - For example: `CapsLock` converts to `Ctrl-Option-Cmd` (tapping `CapsLock` by itself still results in `CapsLock`)
 - Presently MacOS-only, but straight-forward to implement on other platforms.
 
