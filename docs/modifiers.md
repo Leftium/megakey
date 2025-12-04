@@ -67,7 +67,7 @@ Cmd removed      │        Ctrl removed
   - "Chaos" implies "uncontrolled."
   - ❋ symbol is similar to the [Chaos Star](https://en.wikipedia.org/wiki/Symbol_of_Chaos)
 
-## This table summarizes all the keys:
+## The following table summarizes all the keys:
 
 |        | Name  | Single Key              | Multiple Keys                                               | ⇧ | ⌃ | ⌥ | ⌘ | Notes             |
 |-------:|-------|-------------------------|-------------------------------------------------------------|---|---|---|---|-------------------|
@@ -79,6 +79,13 @@ Cmd removed      │        Ctrl removed
 
 
 ## Windows/Linux versions
+
+- While Mega/Giga/Chaos work across platforms, some keys are slightly MacOS-centric.
+- For the remaining two keys, words that play with the Linux key names may be used
+  - "Main" vs "Alt" ("Alternate")
+  - "Sub" vs "Super" ([Win] key on some Linux distros)
+- Used either prepended (`Main.Wish-C`) or by itself (`Main-C`)
+- The symbols remain unchanged.
 
 ```
              Shift added
@@ -95,8 +102,8 @@ Alt removed      │        Ctrl removed
 |-------:|-------|-------------------------|-------------------------------------------------------------|-------------------|
 | **⁂** | Mega  | <kbd>CapsLock</kbd>     | <kbd>Ctrl</kbd><kbd>Win</kbd><kbd>Alt</kbd>                 | Base combination  |
 | **❖** | Giga  | <kbd>Tab</kbd>          | <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Win</kbd><kbd>Alt</kbd> | Mega with Shift   |
-| **⭑** | Main  | <kbd>Right Win</kbd>    | <kbd>Ctrl</kbd><kbd>Win</kbd>                               | Mega without Alt  |
-| **▲** | Sub   | <kbd>Right Alt</kbd>    | <kbd>Ctrl</kbd><kbd>Alt</kbd>                               | Mega without Win  |
+| **⭑** | Main.Wish  | <kbd>Right Win</kbd>    | <kbd>Ctrl</kbd><kbd>Win</kbd>                               | Mega without Alt  |
+| **▲** | Sub.Force   | <kbd>Right Alt</kbd>    | <kbd>Ctrl</kbd><kbd>Alt</kbd>                               | Mega without Win  |
 | **❋** | Chaos | <kbd>Right Ctrl</kbd>   | <kbd>Win</kbd><kbd>Alt</kbd>                                | Mega without Ctrl |
 
 ## Prior Art
