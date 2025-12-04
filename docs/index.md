@@ -1,4 +1,4 @@
-[GitHub Repository](https://github.com/Leftium/megakey)
+[GitHub Repository](https://github.com/Leftium/megakey#README)
 
 ## Standardization and extension of the Hyper (and Meh) key
 
