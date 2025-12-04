@@ -2,7 +2,7 @@
 
 ## Standardization and extension of the Hyper (and Meh) key
 
-![](https://leftium.github.io/megakey/assets/keyboard.png?1)
+![](https://leftium.github.io/megakey/assets/keyboard.png)
 
 ### A system of 5 pseudo-modifier keys that works on standard keyboards
 - Useful for (global) keyboard shortcuts that don't clash with system or app bindings.

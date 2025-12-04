@@ -1,6 +1,6 @@
 # MegaKey
 
-![](https://leftium.github.io/megakey/assets/keyboard.png?1)
+![](https://leftium.github.io/megakey/assets/keyboard.png)
 
 - Standardization and extension of the Hyper (and Meh) key
 - A system of 5 pseudo-modifier keys that works on standard keyboards
@@ -10,7 +10,7 @@
 1. [Mental tools](https://leftium.github.io/megakey/#1-mental-tools-for-your-mind) (for your mind): simplify complex combinations of modifiers to a single word or symbol.
 2. [Software tools](https://leftium.github.io/megakey/#2-software-tools-for-your-fingers) (for your fingers): simplify complex/awkward combinations of modifiers to a single keypress.
 
-|        | Name  | Single Key              | Multiple Keys                                               |   |   |   |   | Notes             |
+|        | Name  | Single Key              | Multiple Keys                                               | ⇧ | ⌃ | ⌥ | ⌘ | Notes             |
 |-------:|-------|-------------------------|-------------------------------------------------------------|---|---|---|---|-------------------|
 | **⁂** | Mega  | <kbd>CapsLock</kbd>     | <kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd>                 |   | ⌃ | ⌥ | ⌘ | Base combination  |
 | **❖** | Giga  | <kbd>Tab</kbd>          | <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd> | ⇧ | ⌃ | ⌥ | ⌘ | Mega with Shift   |
