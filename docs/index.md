@@ -5,10 +5,10 @@
 ![](https://leftium.github.io/megakey/assets/keyboard.png)
 
 ### A system of 5 pseudo-modifier keys that works on standard keyboards
-- Useful for (global) keyboard shortcuts that don't clash with system or app bindings.
+- Keyboard shortcuts that don't conflict with system or app bindings.
 - Can bind `Mega` for universal cut/copy/paste/etc on both Windows (`Ctrl`) and MacOS (`Cmd`). (Plus `Mega` is more comfortable/ergonomic!)
 - Free to choose memorable keys like `Chaos-V` for pasting from clipboard history.
-- Especially helpful for window managers that require several global keybindings.
+- Especially useful for global keybindings such as those required for transcription tools and windows managers.
  
 MegaKey consists of two parts:
 
