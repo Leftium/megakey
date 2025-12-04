@@ -28,7 +28,7 @@ MegaKey consists of two parts:
 ## The 5 new pseudo-modifier keys
 
 |        | Name  | Single Key              | Multiple Keys                                               | Notes             |
-|-------:|-------|-------------------------|-------------------------------------------------------------|-------------------|
+|-------:|-------|-------------------------|------------------------------------------------------------:|-------------------|
 | **⁂** | Mega  | <kbd>CapsLock</kbd>     | <kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd>                 | Base combination  |
 | **❖** | Giga  | <kbd>Tab</kbd>          | <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd> | Mega with Shift   |
 | **⭑** | Wish  | <kbd>Right Cmd</kbd>    | <kbd>Ctrl</kbd><kbd>Opt</kbd>                               | Mega without Cmd  |
@@ -55,7 +55,7 @@ That's it! Hold Caps Lock to activate MegaKey. Tap it for Escape.
 
 See detailed [installation guide](https://leftium.github.io/megakey/installation) for:
 - Manual installation
-- CapsLock version
+- Version that preserves CapsLock
 
 ## License
 
