@@ -1,6 +1,5 @@
 # Modifier Details
 
-## The 4 variations of Mega differ by a single modifier key:
 ```
              Shift added
              ❖ Giga
@@ -11,6 +10,79 @@ Cmd removed      │        Ctrl removed
              ▲ Force
              Opt removed                
 ```
+*The 4 variations of Mega differ by a single modifier key*
+
+![](https://leftium.github.io/megakey/assets/keyboard.png)
+
+## The two main keys
+
+### It starts with the Mega key
+
+- Mega is a pseudo-key; there is no physical "Mega" key
+- "Mega" represents pressing all three modifier keys at the same time ([Ctrl][Opt][Cmd])
+- This combination is relatively easy. Both to recall and press.
+- The name "Mega" was chosen because some related conventions call this combination "Meh" ("Meh"-ga)
+- ⁂ is the symbol for Mega. It represents the three keys that are pressed. 
+- Software can be used to repurpose the [CapsLock] key into a physical [Mega] key.
+
+### Giga is the bigger variant
+
+- Giga is another pseudo-key: Shift+Mega ([Shift][Ctrl][Opt][Cmd])
+- Giga is the shifted version of Mega. (Think SI prefixes)
+- ❖ is the symbol for Mega. It represents the four keys that are pressed. 
+- Software can be used to repurpose the [Tab] key into a physical [Giga]
+- Giga can also be accessed via [Shift][CapsLock] if CapsLock has been configured as the Mega key.
+
+## The three additional "anti" keys
+
+- There are three "anti" keys.
+- The anti keys are variations of Mega with one key removed.
+- Unlike Mega/Giga, the anti keys have shifted versions (that don't have special names on their own)
+  - For example both `Wish` and `Shift-Wish` are unique. While `Shift-Mega` is just `Giga` and `Shift-Giga` doesn't make sense.
+
+### Wish
+
+- Wish is the "Anti-cmd" pseudo-key: Mega minus Cmd (Ctrl][Opt])
+- ⭑ is the symbol for Wish.
+- Software can be used to repurpose [Right Ctrl] for [Wish]
+- Mnemonics
+  - "Your wish is my command"
+  - "Wish" is a less agressive form of "command"
+  - "Wish upon a star" (for the ⭑ symbol)
+
+### Force
+
+- Force is the "Anti-opt" pseudo-key: Mega minus Opt (Ctrl][Cmd])
+- ▲ is the symbol for Force.
+- Software can be used to repurpose [Right Option] for [Force]
+- Mnemonics
+  - To "force" is to leave no "option."
+  - Triforce (▲ resembles artifact from [Zelda](https://en.wikipedia.org/wiki/Triforce))
+
+### Chaos
+
+- Chaos is the "Anti-ctrl" pseudo-key: Mega minus Ctrl ([Opt][Cmd])
+- ❋ is the symbol for Chaos.
+- Software can be used to repurpose [Right Ctrl] for [Chaos]
+- Mnemonics
+  - "Chaos" implies "uncontrolled."
+  - ❋ symbol is similar to the [Chaos Star](https://en.wikipedia.org/wiki/Symbol_of_Chaos)
+
+## This table summarizes all the keys:
+
+[INSERT TABLE]
+
+
+## Windows/Linux versions
+
+TODO
+
+## Prior Art
+
+TODO
+
+---
+
 
 ## Mega is the Center
 
