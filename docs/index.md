@@ -2,11 +2,14 @@
 
 # MegaKey
 
-MegaKey gives five modifier combinations names and single-key shortcuts. Hold <kbd>Caps Lock</kbd> for Mega (<kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Cmd</kbd>), or hold <kbd>Tab</kbd> for Giga (<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Cmd</kbd>). With the optional clipboard demo enabled, Mega+C copies and Mega+V pastes.
+- A proposed standardization and extension of the Hyper (and Meh) key
+- A system of 5 pseudo-modifier keys that works on standard keyboards
 
 ![MegaKey keyboard layout](assets/keyboard.png)
 
-Hyper and Meh mappings use the same basic idea: put several modifiers on one key. MegaKey adds names and symbols for five related combinations.
+- [Mental tools (for your mind)](#1-mental-tools-for-your-mind): names and symbols for thinking about shortcuts.
+- [Software tools (for your fingers)](#2-software-tools-for-your-fingers): single-key mappings via [Karabiner-Elements](https://karabiner-elements.pqrs.org/) on macOS.
+- With the optional clipboard demo, <kbd>Caps Lock</kbd>+<kbd>C</kbd> copies and <kbd>Caps Lock</kbd>+<kbd>V</kbd> pastes.
 
 ## Mental tools + Software tools
 

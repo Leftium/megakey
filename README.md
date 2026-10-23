@@ -1,15 +1,13 @@
 # MegaKey
 
-MegaKey gives five modifier combinations names and single-key shortcuts. On macOS, hold <kbd>Caps Lock</kbd> for <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Cmd</kbd> (Mega), or hold <kbd>Tab</kbd> to add <kbd>Shift</kbd> (Giga). With the optional clipboard demo enabled, <kbd>Caps Lock</kbd>+<kbd>C</kbd> copies and <kbd>Caps Lock</kbd>+<kbd>V</kbd> pastes.
+- A proposed standardization and extension of the Hyper (and Meh) key
+- A system of 5 pseudo-modifier keys that works on standard keyboards
 
 ![MegaKey keyboard layout](https://leftium.github.io/megakey/assets/keyboard.png)
 
-If you already use Hyper or Meh, the idea will be familiar. MegaKey adds a vocabulary for five related combinations and Karabiner-Elements rules to reach them. Karabiner does the remapping; MegaKey supplies the names and configuration.
-
-MegaKey consists of two parts:
-
-1. [Mental tools (for your mind)](https://leftium.github.io/megakey/#1-mental-tools-for-your-mind): names and symbols make shortcuts easier to think about, read, and describe.
-2. [Software tools (for your fingers)](https://leftium.github.io/megakey/#2-software-tools-for-your-fingers): put those modifier combinations on single physical keys.
+- [Mental tools (for your mind)](https://leftium.github.io/megakey/#1-mental-tools-for-your-mind): names and symbols for thinking about shortcuts.
+- [Software tools (for your fingers)](https://leftium.github.io/megakey/#2-software-tools-for-your-fingers): single-key mappings via [Karabiner-Elements](https://karabiner-elements.pqrs.org/) on macOS.
+- With the optional clipboard demo, <kbd>Caps Lock</kbd>+<kbd>C</kbd> copies and <kbd>Caps Lock</kbd>+<kbd>V</kbd> pastes.
 
 | Symbol | Name | Physical key (hold) | Equivalent keys | ⇧ | ⌃ | ⌥ | ⌘ | Relation to Mega |
 |:------:|------|---------------------|-----------------|---|---|---|---|------------------|
