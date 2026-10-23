@@ -28,7 +28,7 @@ Follow the [Quick Start](https://leftium.github.io/megakey/#quick-start) to impo
 - <kbd>Tab</kbd> still sends <kbd>Tab</kbd> when tapped.
 - Enabling a right modifier rule replaces that key's original behavior. Remove its rule in Karabiner to restore it.
 
-[Installation and removal](https://leftium.github.io/megakey/installation) | [Modifier guide](https://leftium.github.io/megakey/modifiers) | [Behavior reference](https://leftium.github.io/megakey/etc)
+[Installation and removal](https://leftium.github.io/megakey/installation) | [Modifier guide](https://leftium.github.io/megakey/modifiers) | [Behavior reference](https://leftium.github.io/megakey/etc) | [Useful shortcuts](https://leftium.github.io/megakey/shortcuts)
 
 ## Validation
 
