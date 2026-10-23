@@ -6,33 +6,59 @@ MegaKey names five combinations of ordinary modifiers. You can press the modifie
 
 ## Mega and Giga
 
-Mega is Control+Option+Command. Its symbol, ⁂, represents the three modifiers. The name plays on "Meh," a name used for modifier combinations in other keyboard setups.
-
-Giga is Mega with Shift: Shift+Control+Option+Command. Its symbol is ❖, representing four modifiers. The names follow the order of the SI prefixes, Mega then Giga.
-
-With the Karabiner rules enabled, hold Caps Lock for Mega or Tab for Giga. Shift+Caps Lock also gives Giga. Tab still sends Tab when tapped alone; Caps Lock sends Caps Lock or Escape, depending on the file you chose.
+- Mega is a pseudo-key, not a physical key. It means <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Cmd</kbd>.
+- ⁂ represents the three modifiers. The name plays on "Meh" ("Meh"-ga), a name used for modifier combinations in other setups.
+- Hold <kbd>Caps Lock</kbd> for Mega with its Karabiner rule enabled.
+- Giga is Shift+Mega: <kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Cmd</kbd>. Its symbol, ❖, represents four modifiers.
+- Think SI prefixes: Mega, then Giga. Hold <kbd>Tab</kbd> for Giga, or use <kbd>Shift</kbd>+<kbd>Caps Lock</kbd>.
 
 ```text
-                    Giga: add Shift
+                         ❖ Giga
+                        +Shift
+                           ^
                            |
-Wish: remove Command <- Mega -> Chaos: remove Control
-                           |
-                    Force: remove Option
+  ⭑ Wish <-------------- ⁂ Mega --------------> ❋ Chaos
+  -Command                 |                   -Control
+                           v
+                         ▲ Force
+                        -Option
 ```
 
-## Chaos, Force, and Wish
+The four variations of Mega each add or remove one modifier. <kbd>Tab</kbd> still sends <kbd>Tab</kbd> when tapped alone; <kbd>Caps Lock</kbd> sends <kbd>Caps Lock</kbd> or <kbd>Esc</kbd>, depending on the file you chose.
 
-Each of these removes one modifier from Mega. The names give you a way to remember which one:
+## The three "anti" keys
 
-| Symbol | Name | Sends | Name and mnemonic |
-|:------:|------|-------|-------------------|
-| ❋ | Chaos | Option+Command | Remove Control: chaos is uncontrolled. The symbol resembles a [Chaos Star](https://en.wikipedia.org/wiki/Symbol_of_Chaos). |
-| ▲ | Force | Control+Command | Remove Option: force leaves no option. The triangle recalls the [Triforce](https://en.wikipedia.org/wiki/Triforce). |
-| ⭑ | Wish | Control+Option | Remove Command: "Your wish is my command." Wish upon a star. |
+Each anti key is Mega with one modifier removed. Each also has a shifted version: `Wish` and `Shift+Wish` are distinct, while `Shift+Mega` is already Giga. Adding Shift to Giga leaves the same four-modifier combination.
 
-The supplied rules map Right Control to Chaos, Right Option to Force, and Right Command to Wish. Enable each separately; an enabled rule replaces that key's original function.
+### Chaos
 
-Shift can be added to all three. Shift+Mega is already Giga, and adding Shift to Giga leaves the same four-modifier combination. The [behavior reference](etc) lists the exact inputs and outputs.
+- The "anti-Control" key: Mega minus Control, or <kbd>Opt</kbd>+<kbd>Cmd</kbd>.
+- Hold <kbd>Right Ctrl</kbd> for Chaos.
+- Chaos is "uncontrolled." Its symbol, ❋, resembles a [Chaos Star](https://en.wikipedia.org/wiki/Symbol_of_Chaos).
+
+### Force
+
+- The "anti-Option" key: Mega minus Option, or <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>.
+- Hold <kbd>Right Option</kbd> for Force.
+- Force leaves no option. The triangle, ▲, recalls the [Triforce](https://en.wikipedia.org/wiki/Triforce).
+
+### Wish
+
+- The "anti-Command" key: Mega minus Command, or <kbd>Ctrl</kbd>+<kbd>Opt</kbd>.
+- Hold <kbd>Right Cmd</kbd> for Wish.
+- "Your wish is my command." A wish is a softer command; ⭑ is for wishing upon a star.
+
+Enable each rule separately; an enabled right modifier rule replaces that key's original function.
+
+| Symbol | Name | Physical key (hold) | Equivalent keys | ⇧ | ⌃ | ⌥ | ⌘ | Relation to Mega |
+|:------:|------|---------------------|-----------------|---|---|---|---|------------------|
+| ⁂ | Mega | <kbd>Caps Lock</kbd> | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Cmd</kbd> | | ⌃ | ⌥ | ⌘ | Base combination |
+| ❖ | Giga | <kbd>Tab</kbd> | <kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Cmd</kbd> | ⇧ | ⌃ | ⌥ | ⌘ | Add Shift |
+| ❋ | Chaos | <kbd>Right Ctrl</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd> | | | ⌥ | ⌘ | Remove Control |
+| ▲ | Force | <kbd>Right Option</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd> | | ⌃ | | ⌘ | Remove Option |
+| ⭑ | Wish | <kbd>Right Cmd</kbd> | <kbd>Ctrl</kbd>+<kbd>Opt</kbd> | | ⌃ | ⌥ | | Remove Command |
+
+The [behavior reference](etc) covers taps, shifted combinations, and the optional clipboard demo.
 
 ## Relation to Hyper and Meh
 
@@ -44,15 +70,28 @@ For shortcuts, write `Giga+C` or `❖C` instead of `Shift+Control+Option+Command
 
 The naming concept can be carried to Windows or Linux using Control, Win/Super, and Alt. This repository supplies no remapping software for those platforms. The following is a naming proposal, not an installable configuration.
 
-The alternate names follow the omitted key: "Sub" is the opposite of Super, and "Main" is the opposite of Alt (alternate). They can be written as `Sub.Force` and `Main.Wish`, or shortened to `Sub` and `Main`. The symbols stay the same.
+- "Sub" is the opposite of Super; "Main" is the opposite of Alt (alternate).
+- Write `Sub.Force` and `Main.Wish`, or shorten them to `Sub` and `Main`. The symbols stay the same.
+
+```text
+                         ❖ Giga
+                        +Shift
+                           ^
+                           |
+  ⭑ Main <-------------- ⁂ Mega --------------> ❋ Chaos
+  -Alt                     |                   -Control
+                           v
+                         ▲ Sub
+                       -Win/Super
+```
 
 | Symbol | macOS name and combination | Windows/Linux name and combination | Omitted key |
 |:------:|----------------------------|------------------------------------|-------------|
-| ⁂ | Mega: Control+Option+Command | Mega: Control+Win/Super+Alt | None |
-| ❖ | Giga: Shift+Control+Option+Command | Giga: Shift+Control+Win/Super+Alt | None; add Shift |
-| ❋ | Chaos: Option+Command | Chaos: Win/Super+Alt | Control |
-| ▲ | Force: Control+Command | Sub.Force: Control+Alt | Option / Win/Super |
-| ⭑ | Wish: Control+Option | Main.Wish: Control+Win/Super | Command / Alt |
+| ⁂ | Mega: <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Cmd</kbd> | Mega: <kbd>Ctrl</kbd>+<kbd>Win/Super</kbd>+<kbd>Alt</kbd> | None |
+| ❖ | Giga: <kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Cmd</kbd> | Giga: <kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>Win/Super</kbd>+<kbd>Alt</kbd> | None; add Shift |
+| ❋ | Chaos: <kbd>Opt</kbd>+<kbd>Cmd</kbd> | Chaos: <kbd>Win/Super</kbd>+<kbd>Alt</kbd> | Control |
+| ▲ | Force: <kbd>Ctrl</kbd>+<kbd>Cmd</kbd> | Sub.Force: <kbd>Ctrl</kbd>+<kbd>Alt</kbd> | Option / Win/Super |
+| ⭑ | Wish: <kbd>Ctrl</kbd>+<kbd>Opt</kbd> | Main.Wish: <kbd>Ctrl</kbd>+<kbd>Win/Super</kbd> | Command / Alt |
 
 ## Related work
 
