@@ -37,6 +37,8 @@
 
 These are names used by this project, not an adopted keyboard standard. You can assign the combinations in apps that accept custom shortcuts, though existing system or app bindings may already use them.
 
+For examples that already work in popular apps, see [Useful shortcuts](shortcuts).
+
 ## Quick Start
 
 You need macOS, a keyboard with <kbd>Caps Lock</kbd>, and Karabiner-Elements installed with its required permissions granted. You only need <kbd>Tab</kbd> and the right modifier keys if you enable their rules.

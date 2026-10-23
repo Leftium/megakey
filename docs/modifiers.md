@@ -58,7 +58,7 @@ Enable each rule separately; an enabled right modifier rule replaces that key's 
 | ▲ | Force | <kbd>Right Option</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd> | | ⌃ | | ⌘ | Remove Option |
 | ⭑ | Wish | <kbd>Right Cmd</kbd> | <kbd>Ctrl</kbd>+<kbd>Opt</kbd> | | ⌃ | ⌥ | | Remove Command |
 
-The [behavior reference](etc) covers taps, shifted combinations, and the optional clipboard demo.
+The [behavior reference](etc) covers taps, shifted combinations, and the optional clipboard demo. See also [useful shortcuts in apps](shortcuts).
 
 ## Relation to Hyper and Meh
 
