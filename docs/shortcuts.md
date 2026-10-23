@@ -14,12 +14,12 @@ These are examples of **existing shortcuts**, not actions added by MegaKey's opt
 
 | MegaKey | Original shortcut | Action |
 |---------|-------------------|--------|
-| `Wish+Space` | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Space</kbd> | Show everything |
-| `Wish+↑` / `Wish+↓` | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>↑</kbd> / <kbd>↓</kbd> | Step out / in one level |
-| `Wish+Return` | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Return</kbd> | Show the focused window on its own |
-| `Wish+N` | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>N</kbd> | Split the current window with Finder |
-| `Wish+1` to `Wish+9` | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>1</kbd> to <kbd>9</kbd> | Go to a saved view |
-| `Wish+Shift+1` to `Wish+Shift+9` | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Shift</kbd>+<kbd>1</kbd> to <kbd>9</kbd> | Save the current view |
+| <kbd>Wish</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Space</kbd> | Show everything |
+| <kbd>Wish</kbd>+<kbd>↑</kbd> / <kbd>Wish</kbd>+<kbd>↓</kbd> | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>↑</kbd> / <kbd>↓</kbd> | Step out / in one level |
+| <kbd>Wish</kbd>+<kbd>Return</kbd> | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Return</kbd> | Show the focused window on its own |
+| <kbd>Wish</kbd>+<kbd>N</kbd> | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>N</kbd> | Split the current window with Finder |
+| <kbd>Wish</kbd>+<kbd>1</kbd> to <kbd>Wish</kbd>+<kbd>9</kbd> | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>1</kbd> to <kbd>9</kbd> | Go to a saved view |
+| <kbd>Wish</kbd>+<kbd>Shift</kbd>+<kbd>1</kbd> to <kbd>Wish</kbd>+<kbd>Shift</kbd>+<kbd>9</kbd> | <kbd>Ctrl</kbd>+<kbd>Opt</kbd>+<kbd>Shift</kbd>+<kbd>1</kbd> to <kbd>9</kbd> | Save the current view |
 
 ## Google Chrome
 
@@ -27,10 +27,10 @@ These are examples of **existing shortcuts**, not actions added by MegaKey's opt
 
 | MegaKey | Original shortcut | Action |
 |---------|-------------------|--------|
-| `Chaos+N` | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>N</kbd> | Open split view in the active tab |
-| `Chaos+←` / `Chaos+→` | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>←</kbd> / <kbd>→</kbd> | Previous / next tab |
-| `Chaos+I` | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>I</kbd> | Open Developer Tools |
-| `Chaos+B` | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd> | Open Bookmark Manager |
+| <kbd>Chaos</kbd>+<kbd>N</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>N</kbd> | Open split view in the active tab |
+| <kbd>Chaos</kbd>+<kbd>←</kbd> / <kbd>Chaos</kbd>+<kbd>→</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>←</kbd> / <kbd>→</kbd> | Previous / next tab |
+| <kbd>Chaos</kbd>+<kbd>I</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>I</kbd> | Open Developer Tools |
+| <kbd>Chaos</kbd>+<kbd>B</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd> | Open Bookmark Manager |
 
 ## Finder
 
@@ -38,12 +38,12 @@ These are examples of **existing shortcuts**, not actions added by MegaKey's opt
 
 | MegaKey | Original shortcut | Action |
 |---------|-------------------|--------|
-| `Chaos+V` | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd> | Move files copied to the clipboard into this folder |
-| `Chaos+P` | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>P</kbd> | Show / hide the path bar |
-| `Chaos+S` | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>S</kbd> | Show / hide the sidebar |
-| `Chaos+L` | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>L</kbd> | Open Downloads |
-| `Force+N` | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>N</kbd> | Put selected items into a new folder |
-| `Force+T` | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd> | Add the selected item to the sidebar |
+| <kbd>Chaos</kbd>+<kbd>V</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>V</kbd> | Move files copied to the clipboard into this folder |
+| <kbd>Chaos</kbd>+<kbd>P</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>P</kbd> | Show / hide the path bar |
+| <kbd>Chaos</kbd>+<kbd>S</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>S</kbd> | Show / hide the sidebar |
+| <kbd>Chaos</kbd>+<kbd>L</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>L</kbd> | Open Downloads |
+| <kbd>Force</kbd>+<kbd>N</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>N</kbd> | Put selected items into a new folder |
+| <kbd>Force</kbd>+<kbd>T</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>T</kbd> | Add the selected item to the sidebar |
 
 ## Visual Studio Code
 
@@ -51,8 +51,8 @@ These are examples of **existing shortcuts**, not actions added by MegaKey's opt
 
 | MegaKey | Original shortcut | Action |
 |---------|-------------------|--------|
-| `Chaos+↑` / `Chaos+↓` | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>↑</kbd> / <kbd>↓</kbd> | Add a cursor above / below |
-| `Chaos+F` | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd> | Open Find and Replace |
+| <kbd>Chaos</kbd>+<kbd>↑</kbd> / <kbd>Chaos</kbd>+<kbd>↓</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>↑</kbd> / <kbd>↓</kbd> | Add a cursor above / below |
+| <kbd>Chaos</kbd>+<kbd>F</kbd> | <kbd>Opt</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd> | Open Find and Replace |
 
 ## macOS
 
@@ -60,8 +60,8 @@ These are examples of **existing shortcuts**, not actions added by MegaKey's opt
 
 | MegaKey | Original shortcut | Action |
 |---------|-------------------|--------|
-| `Force+F` | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd> | Enter / leave native full screen (supported apps) |
-| `Force+Space` | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Space</kbd> | Open Character Viewer |
-| `Force+Q` | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Q</kbd> | Lock the screen |
+| <kbd>Force</kbd>+<kbd>F</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd> | Enter / leave native full screen (supported apps) |
+| <kbd>Force</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Space</kbd> | Open Character Viewer |
+| <kbd>Force</kbd>+<kbd>Q</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Q</kbd> | Lock the screen |
 
 See the [modifier guide](modifiers) for how MegaKey's names relate to ordinary modifiers, or the [installation guide](installation) to enable individual rules.
