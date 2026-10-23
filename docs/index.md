@@ -49,9 +49,7 @@ See detailed [pseudo-modifier guide](https://leftium.github.io/megakey/modifiers
 
 That's it! Hold Caps Lock to activate MegaKey. Tap it for Escape.
 
-> [!TIP]
->
-> Press Fn+CapsLock to toggle Caps Lock on/off.
+> **Tip:** Press Fn+CapsLock to toggle Caps Lock on/off.
 
 See detailed [installation guide](https://leftium.github.io/megakey/installation) for:
 - Manual installation
