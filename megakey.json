@@ -21,18 +21,7 @@
                         "key_code": "left_command",
                         "modifiers": ["left_control", "left_option"]
                     }],
-                    "to_if_alone": [{ "key_code": "caps_lock" }],
-                    "type": "basic"
-                },
-                {
-                    "from": {
-                        "key_code": "caps_lock",
-                        "modifiers": { "mandatory": ["shift"], "optional": ["any"] }
-                    },
-                    "to": [{
-                        "key_code": "left_shift",
-                        "modifiers": ["left_command", "left_control", "left_option"]
-                    }],
+                    "to_if_alone": [{ "key_code": "caps_lock", "hold_down_milliseconds": 200 }],
                     "type": "basic"
                 }
             ]
@@ -99,6 +88,59 @@
                         "modifiers": ["left_option"]
                     }],
                     "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "Optional clipboard demo: Mega+C/V -> Cmd+C/V (Shift passes through)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "c",
+                        "modifiers": {
+                            "mandatory": [
+                                "control",
+                                "option",
+                                "command"
+                            ],
+                            "optional": [
+                                "shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "c",
+                            "modifiers": [
+                                "left_command"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "v",
+                        "modifiers": {
+                            "mandatory": [
+                                "control",
+                                "option",
+                                "command"
+                            ],
+                            "optional": [
+                                "shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "v",
+                            "modifiers": [
+                                "left_command"
+                            ]
+                        }
+                    ]
                 }
             ]
         }

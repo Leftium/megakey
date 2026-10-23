@@ -1,23 +1,33 @@
 # MegaKey
 
-![](https://leftium.github.io/megakey/assets/keyboard.png)
+MegaKey gives five modifier combinations names and single-key shortcuts. On macOS, hold Caps Lock for Control+Option+Command (Mega), or hold Tab to add Shift (Giga). With the optional clipboard demo enabled, Caps Lock+C copies and Caps Lock+V pastes.
 
-- Standardization and extension of the Hyper (and Meh) key
-- A system of 5 pseudo-modifier keys that works on standard keyboards
- 
-## MegaKey consists of two parts:
+![MegaKey keyboard layout](https://leftium.github.io/megakey/assets/keyboard.png)
 
-1. [Mental tools](https://leftium.github.io/megakey/#1-mental-tools-for-your-mind) (for your mind): simplify complex combinations of modifiers to a single word or symbol.
-2. [Software tools](https://leftium.github.io/megakey/#2-software-tools-for-your-fingers) (for your fingers): simplify complex/awkward combinations of modifiers to a single keypress.
+If you already use Hyper or Meh, the idea will be familiar. MegaKey adds a vocabulary for five related combinations and Karabiner-Elements rules to reach them. Karabiner does the remapping; MegaKey supplies the names and configuration.
 
-|        | Name  | Single Key              | Multiple Keys                                               | ⇧ | ⌃ | ⌥ | ⌘ | Notes             |
-|-------:|-------|-------------------------|-------------------------------------------------------------|---|---|---|---|-------------------|
-| **⁂** | Mega  | <kbd>CapsLock</kbd>     | <kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd>                 |   | ⌃ | ⌥ | ⌘ | Base combination  |
-| **❖** | Giga  | <kbd>Tab</kbd>          | <kbd>Shift</kbd><kbd>Ctrl</kbd><kbd>Opt</kbd><kbd>Cmd</kbd> | ⇧ | ⌃ | ⌥ | ⌘ | Mega with Shift   |
-| **❋** | Chaos | <kbd>Right Ctrl</kbd>   | <kbd>Opt</kbd><kbd>Cmd</kbd>                                |   |   | ⌥ | ⌘ | Mega without Ctrl |
-| **▲** | Force | <kbd>Right Option</kbd> | <kbd>Ctrl</kbd><kbd>Cmd</kbd>                               |   | ⌃ |   | ⌘ | Mega without Opt  |
-| **⭑** | Wish  | <kbd>Right Cmd</kbd>    | <kbd>Ctrl</kbd><kbd>Opt</kbd>                               |   | ⌃ | ⌥ |   | Mega without Cmd  |
+| Symbol | Name | Hold this key | Sends | Relation to Mega |
+|:------:|------|---------------|-------|------------------|
+| ⁂ | Mega | Caps Lock | Control+Option+Command | Base combination |
+| ❖ | Giga | Tab | Shift+Control+Option+Command | Add Shift |
+| ❋ | Chaos | Right Control | Option+Command | Remove Control |
+| ▲ | Force | Right Option | Control+Command | Remove Option |
+| ⭑ | Wish | Right Command | Control+Option | Remove Command |
 
-### [Full documentation](https://leftium.github.io/megakey/)
-- [Quick Start](https://leftium.github.io/megakey/#quick-start)
-- [Installation](https://leftium.github.io/megakey/#installation)
+The supplied rules require macOS and [Karabiner-Elements](https://karabiner-elements.pqrs.org/). The naming concept can be used on other platforms, but this repository has no Windows or Linux implementation. These combinations can still conflict with existing shortcuts.
+
+## Try it
+
+Follow the [Quick Start](https://leftium.github.io/megakey/#quick-start) to import `megakey.json`, which preserves Caps Lock on tap, and enable only the rules you want. The optional clipboard demo gives you a shortcut to test immediately. An [Escape-on-tap variant](https://leftium.github.io/megakey/installation#choose-a-variant) is also available.
+
+Tab still sends Tab when tapped. Enabling a right modifier rule replaces that key's original behavior. You can remove individual rules in Karabiner to restore it.
+
+[Installation and removal](https://leftium.github.io/megakey/installation) | [Modifier guide](https://leftium.github.io/megakey/modifiers) | [Behavior reference](https://leftium.github.io/megakey/etc)
+
+## Validation
+
+Run `python3 scripts/validate.py` for configuration regression checks. If Karabiner is installed, also run `karabiner_cli --lint-complex-modifications 'megakey*.json'`. Physical keyboard and app checks are listed in the [behavior reference](https://leftium.github.io/megakey/etc#manual-checks).
+
+## License
+
+[MIT](LICENSE)
